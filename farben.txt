@@ -1,0 +1,5 @@
+Main-Blau:		#009bdb
+Hell-Türkis: 		#1f90a5
+Dunkel-Türkis:		#1f7c8d
+Hell:Anthrazit:		#333333
+Dunkel-Anthrazit:	#151515
