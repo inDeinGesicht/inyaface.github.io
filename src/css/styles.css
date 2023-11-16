@@ -22,6 +22,7 @@ html {
 }
 
 body {
+    background-color: #222222;
     margin: 0;
     font-family: var(--primaere-schriftart, --sekundaere-schriftart, --tertiaere-schriftart, --fallback-schriftart);
 }
@@ -321,20 +322,30 @@ section {
 /* === STARTSEITE === */
 
 .logo {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     object-position: 20%;
     position: fixed;
 }
 
-@media only screen and (min-width: 768px) {
+.video-main {
+    display: flex;
+    position: fixed;
+    filter: brightness(75%);
+    z-index: -50;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
     .video-main {
-        display: flex;
-        filter: brightness(0.5);
-        position: fixed;
-        z-index: -50;
-        width: 100%;
+        width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .video-main {
+        filter: brightness(15%);
     }
 }
 
