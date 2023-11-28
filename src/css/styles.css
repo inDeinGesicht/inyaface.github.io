@@ -25,6 +25,7 @@ html {
 body {
     margin: 0;
     font-family: var(--primaere-schriftart, --sekundaere-schriftart, --tertiaere-schriftart, --fallback-schriftart);
+    background-color: var(--dunkel-grau-2);
 }
 
 * {
