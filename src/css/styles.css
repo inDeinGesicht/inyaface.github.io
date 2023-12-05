@@ -23,6 +23,7 @@ html {
 }
 
 body {
+    background-color: #222222;
     margin: 0;
     font-family: var(--primaere-schriftart, --sekundaere-schriftart, --tertiaere-schriftart, --fallback-schriftart);
     background-color: var(--dunkel-grau-2);
@@ -343,7 +344,6 @@ section {
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 
 .video-main {
