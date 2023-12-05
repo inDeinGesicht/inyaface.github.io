@@ -420,6 +420,11 @@ section {
     min-width: 30px;
     margin-bottom: 1.6rem;
     border-radius: 6px;
+    min-height: 27rem;
+}
+
+.p-leistungs-teaser-box div {
+    min-height: 24vh;
 }
 
 #p-leistungen-bereich .row>.col-3:nth-of-type(even)>.p-leistungs-teaser-box {
@@ -442,8 +447,8 @@ section {
     padding-top: .5rem;
     min-width: 100px;
     flex-basis: 11rem;
-    margin-top: 53vh;
-    background-color: var(--dunkelblau);
+    margin-top: 1vh;
+    background-color: transparent;
 }
 
 .p-leistung-ansehen-btn:link {
@@ -597,6 +602,16 @@ section {
     display: block;
     box-shadow: 0 0 20px 0 var(--blau);
     border-radius: 6px;
+}
+
+#videos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#videos-container iframe {
+    margin-top: 3rem;
 }
 
 @media (max-width: 1440px) {
@@ -1553,6 +1568,11 @@ section {
     column-gap: 18rem;
     flex-direction: inherit;
     z-index: 900;
+}
+
+#buttonContainer a {
+    background-color: var(--dunkelblau);
+    margin-top: 53vh;
 }
 
 @media (max-width: 768px) {
