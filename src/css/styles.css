@@ -717,6 +717,7 @@ section {
 }
 
 #footer-nav a {
+    margin-left: 10px;
     text-decoration: none;
 }
 
@@ -763,6 +764,7 @@ section {
 }
 
 #footer-start-nav a {
+    margin-left: 10px;
     text-decoration: none;
 }
 
