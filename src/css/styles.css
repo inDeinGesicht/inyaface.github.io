@@ -420,12 +420,8 @@ section {
     min-width: 30px;
     margin-bottom: 1.6rem;
     border-radius: 6px;
-    min-height: 27rem;
 }
 
-.p-leistungs-teaser-box div {
-    min-height: 24vh;
-}
 
 #p-leistungen-bereich .row>.col-3:nth-of-type(even)>.p-leistungs-teaser-box {
     margin-left: 1rem;
