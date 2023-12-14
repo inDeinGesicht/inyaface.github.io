@@ -1403,6 +1403,25 @@ section {
     margin-bottom: 2rem;
 }
 
+#p-dropdown {
+    background-color: var(--dunkel-grau-1);
+    color: var(--blau);
+
+}
+
+#p-dropdown:hover {
+    border: var(--border-style) var(--blau);
+    box-shadow: 0 0 10px 0 var(--blau);
+    background-color: var(--dunkel-grau-1);
+
+}
+
+#p-checkbox a {
+
+    color: var(--blau);
+
+}
+
 #p-absendenbutton {
     width: 150px;
     height: 36px;
