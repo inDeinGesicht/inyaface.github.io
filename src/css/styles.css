@@ -736,7 +736,7 @@ section {
     text-decoration: underline;
 }
 
-@media (max-width: 565px) {
+@media (max-width: 540px) {
     #footer span {
         display: none;
     }
@@ -783,7 +783,7 @@ section {
     text-decoration: underline;
 }
 
-@media (max-width: 565px) {
+@media (max-width: 540px) {
     #footer-start span {
         display: none;
     }
@@ -828,7 +828,7 @@ section {
     text-decoration: underline;
 }
 
-@media (max-width: 565px) {
+@media (max-width: 540px) {
     #footer-sponsoren span {
         display: none;
     }
