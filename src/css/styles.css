@@ -277,13 +277,11 @@ section {
 #mobile-nav-button {
     color: var(--weiß);
     float: right;
-    font-size: 2rem;
-    border: var(--border-style) var(--weiß);
+    font-size: 3rem;
     width: 35px;
     height: 35px;
     position: relative;
-    margin-top: .45rem;
-    margin-bottom: .5rem;
+    margin-top: .9rem;
 }
 
 #mobile-nav-button>span {
@@ -308,7 +306,7 @@ section {
 
 #mobile-nav-content {
     position: absolute;
-    right: 0;
+    right: -13px;
     top: 50px;
     display: none;
     z-index: 1000;
@@ -1383,7 +1381,7 @@ section {
     padding: .5rem;
     font-size: 1rem;
     font-family: var(--primaere-schriftart, --sekundaere-schriftart, --tertiaere-schriftart, --fallback-schriftart);
-    color: var(--weiß);
+    color: var(--schwarz);
     background-color: var(--hell-grau-2);
     transition: var(--border-transition);
 }
@@ -1449,7 +1447,7 @@ section {
     padding: .5rem;
     font-size: 1rem;
     font-family: var(--primaere-schriftart, --sekundaere-schriftart, --tertiaere-schriftart, --fallback-schriftart);
-    color: var(--weiß);
+    color: var(--schwarz);
     background-color: var(--hell-grau-2);
     transition: var(--border-transition);
 }
@@ -1547,9 +1545,8 @@ section {
     background-color: var(--dunkel-grau);
     color: var(--weiß);
     padding: 2rem 4rem;
-    text-align: left;
-    flex-direction: column;
 }
+
 
 /* === GRID SYSTEM === */
 
