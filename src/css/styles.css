@@ -1399,9 +1399,9 @@ section {
     }
 }
 
-/* === PORTFOLIO === */
+/* === PORTFOLIO ===
 
-#portfolio {
+/* #portfolio {
     background-color: #333333;
     box-shadow: 0 0 20px 5px var(--schwarz);
     color: var(--weiß);
@@ -1443,7 +1443,7 @@ section {
     #portfolio video {
         width: 100%;
     }
-}
+} */
 
 /* === ÜBER-UNS-SEITE === */
 
@@ -1558,6 +1558,7 @@ section {
 
 #p-kontakt-bereich {
     padding-top: 1rem;
+    padding-bottom: .4rem;
     box-shadow: 0 0 20px 10px var(--schwarz);
     color: var(--weiß);
     background-color: var(--dunkel-grau);
