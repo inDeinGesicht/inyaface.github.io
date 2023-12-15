@@ -162,12 +162,14 @@ section {
     color: var(--weiß);
     transition: color .5s ease-in-out, var(--border-transition);
     border-radius: 6px;
+    box-shadow: 0 0 10px 0 var(--blau);
 }
 
 .btn-typ-1:hover {
     color: var(--blau);
     border: var(--border-style) var(--blau);
     font-weight: normal;
+    box-shadow: 0 0 15px 6px var(--blau);
 }
 
 .btn-typ-2 {
@@ -357,6 +359,7 @@ section {
     /* Make video to at least 100% wide and tall */
     min-width: 100%;
     min-height: 100%;
+    filter: brightness(.5);
 
     /* Setting width & height to auto prevents the browser from stretching or squishing the video */
     width: auto;
@@ -369,18 +372,199 @@ section {
     transform: translate(-50%, -50%);
 }
 
-/*@media (max-width: 768px) {
-    .video-main {
-        width: auto;
+.leistung-ansehen-btn {
+    height: 40px;
+    display: inline-block;
+    padding-top: .5rem;
+    min-width: 100px;
+    flex-basis: 11rem;
+    margin-top: 1vh;
+    background-color: transparent;
+}
+
+@media (min-width: 150px) {
+    .logo {
+        top: -50px;
+        bottom: 100%; 
     }
 }
 
-@media (max-width: 480px) {
-    .video-main {
-        filter: brightness(15%);
+@media (min-width: 160px) {
+    .logo {
+        top: -60px;
+        bottom: 100%; 
     }
 }
-*/
+
+@media (min-width: 240px) {
+    .logo {
+        top: 40px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 320px) {
+    .logo {
+        top: -20px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 480px) {
+    .logo {
+        top: -120px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 600px) {
+    .logo {
+        top: -220px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 640px) {
+    .logo {
+        top: -240px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 720px) {
+    .logo {
+        top: -300px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 768px) {
+    .logo {
+        top: -686px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 800px) {
+    .logo {
+        top: 250px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 854px) {
+    .logo {
+        top: 250px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 960px) {
+    .logo {
+        top: 230px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .logo {
+        top: 208px;
+        bottom: 100%; 
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .logo {
+        top: 180px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 1280px) {
+    .logo {
+        top: 160px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 1366px) {
+    .logo {
+        top: 164px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 1400px) {
+    .logo {
+        top: 154px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 1440px) {
+    .logo {
+        top: 142px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 1600px) {
+    .logo {
+        top: 96px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 1680px) {
+    .logo {
+        top: 90px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 1900px) {
+    .logo {
+        top: 60px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 1920px) {
+    .logo {
+        top: 40px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 2048px) {
+    .logo {
+        top: 200px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 2560px) {
+    .logo {
+        top: 100px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 3200px) {
+    .logo {
+        top: -30px;
+        bottom: 100%; 
+    }
+}
+
+@media (min-width: 3440px) {
+    .logo {
+        top: -100px;
+        bottom: 100%; 
+    }
+}
+
 /* === HEADER-BANNER === */
 
 #header-banner {
@@ -935,10 +1119,12 @@ section {
 
 .p-leistung-auswählen-btn {
     width: 50%;
-    height: 2.5rem;
+    text-align: center;
     font-size: 1rem;
     margin-top: .25rem;
     min-width: 100px;
+    box-shadow: 0 0 10px 0 var(--blau);
+    border-color: var(--blau);
 }
 
 @media (max-width: 1815px) {
@@ -1113,17 +1299,20 @@ section {
     color: #00d9ffb4;
 }
 
-.b-leistungs-box>ul>li {
+.b-leistungs-box ul li {
     list-style-position: inside;
     margin-bottom: .5rem;
+    text-align: left;
 }
 
 .b-leistung-auswählen-btn {
     width: 50%;
-    height: 2.5rem;
+    text-align: center;
     font-size: 1rem;
     margin-top: .25rem;
     min-width: 100px;
+    box-shadow: 0 0 10px 0 var(--blau);
+    border-color: var(--blau);
 }
 
 @media (max-width: 1815px) {
