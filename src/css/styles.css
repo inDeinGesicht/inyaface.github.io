@@ -1528,8 +1528,6 @@ section {
     #über-uns-container p {
         width: 100%;
     }
-
-
 }
 
 @media (max-width: 768px) {
@@ -1574,6 +1572,8 @@ section {
     color: var(--schwarz);
     background-color: var(--hell-grau-2);
     transition: var(--border-transition);
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    border-radius: 4px;
 }
 
 #p-kontakt-formular textarea {
@@ -1594,32 +1594,52 @@ section {
 }
 
 #p-dropdown {
-    background-color: var(--dunkel-grau-1);
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    background-color: transparent;
     color: var(--blau);
-
 }
 
 #p-dropdown:hover {
     border: var(--border-style) var(--blau);
     box-shadow: 0 0 10px 0 var(--blau);
-    background-color: var(--dunkel-grau-1);
-
+    cursor: pointer;
 }
 
-#p-checkbox a {
-
+#p-dropdown-paket {
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    background-color: transparent;
     color: var(--blau);
+}
 
+#p-dropdown-paket:hover {
+    border: var(--border-style) var(--blau);
+    box-shadow: 0 0 10px 0 var(--blau);
+    text-decoration: var(--schwarz);
+    cursor: pointer;
+}
+
+#checkbox {
+    color: #00d9ffb4;
+    text-decoration: none;
+}
+
+#checkbox:hover {
+    text-decoration: underline;
 }
 
 #p-absendenbutton {
     width: 150px;
     height: 36px;
     background-color: var(--hell-grau-2);
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    border-radius: 4px;
 }
 
 #p-absendenbutton:hover {
     box-shadow: 0 0 10px 5px var(--blau);
+    cursor: pointer;
 }
 
 @media (max-width: 1366px) {
@@ -1659,6 +1679,8 @@ section {
     color: var(--schwarz);
     background-color: var(--hell-grau-2);
     transition: var(--border-transition);
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    border-radius: 4px;
 }
 
 #b-kontakt-formular textarea {
@@ -1682,6 +1704,8 @@ section {
     width: 150px;
     height: 36px;
     background-color: var(--hell-grau-2);
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    border-radius: 4px;
 }
 
 #b-absendenbutton:hover {

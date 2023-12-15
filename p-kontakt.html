@@ -107,7 +107,7 @@
         </div>
         <form id="p-kontakt-formular" action="p-kontakt.html" method="post">
           <div class="row">
-            <div class="col-3">
+            <div class="col-2">
               <label for="vorname" class="screenreader">Vorname:</label>
               <input
                 id="vorname"
@@ -116,7 +116,7 @@
                 placeholder="Vorname"
               />
             </div>
-            <div class="col-3">
+            <div class="col-2">
               <label for="nachname" class="screenreader">Nachname:</label>
               <input
                 id="nachname"
@@ -127,7 +127,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="div col-3">
+            <div class="div col-2">
               <label for="email" class="screenreader">E-Mail:</label>
               <input
                 id="email"
@@ -138,7 +138,7 @@
                 title="Gib eine gültige E-Mail Adresse ein!"
               />
             </div>
-            <div class="col-3">
+            <div class="col-2">
               <label for="telefon" class="screenreader">Telefon:</label>
               <input
                 id="telefon"
@@ -149,7 +149,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="div col-6">
+            <div class="div col-4">
               <label for="nachricht" class="screenreader">Nachricht:</label>
               <textarea
                 id="nachricht"
@@ -158,33 +158,27 @@
               ></textarea>
             </div>
           </div>
-          <!-- <div class="col-1">
-            <label for="leistungspaket" class="screenreader"
-              >Leistungspaket:</label
-            >
-            <input
-              id="leistungspaket"
-              type="text"
-              name="leistungspaket"
-              placeholder="Leistungspaket"
-            />
-          </div> -->
           <div class="col-6">
-            <select id="p-dropdown" name="Leistungen">
-              <option value="leistung#1">Leistung #1</option>
-              <option value="leistung#2">Leistung #2</option>
-              <option value="leistung#3">Leistung #3</option>
-              <option value="leistung#4">Leistung #4</option>
-              <option value="leistung#5">Leistung #5</option>
-            </select>
-          </div>
-          <div class="col-1">
-            <input id="p-checkbox" type="checkbox" name="agb" value="agb" />
-            <a href="agb.html">AGBs</a>
-            Ckeck
+              <legend>Dienstleistung:</legend>
+                <select id="p-dropdown" name="Leistungen">
+                  <option value="leistung#0"></option>
+                  <option value="leistung#1">Promotion Filme</option>
+                  <option value="leistung#2">Event Filme</option>
+                  <option value="leistung#3">Postproduktion</option>
+                  <option value="leistung#4">Individuell</option>
+                </select>
+              <legend>Paketauswahl:</legend>
+                <select id="p-dropdown-paket" name="paket">
+                    <option value="paket#0"></option>
+                    <option value="paket#1">Basic</option>
+                    <option value="paket#2">Advanced</option>
+                    <option value="paket#3">Premium</option>
+                    <option value="paket#4">Individuell</option>
+                  </optgroup>
+                </select>
           </div>
           <div class="row">
-            <div class="div col-6">
+            <div class="div col-5">
               <button
                 id="p-absendenbutton"
                 class="btn-typ-3"
@@ -193,6 +187,11 @@
               >
                 Senden
               </button>
+            </div>
+            <div class="col-0">
+              <input class="checkbox" type="checkbox" name="agb" value="agb" />
+              <a id="checkbox" href="agb.html">AGBs</a>
+              Ckeck
             </div>
           </div>
         </form>

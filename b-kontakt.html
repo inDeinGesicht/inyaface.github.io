@@ -102,18 +102,17 @@
           <div class="col-6">
             <header class="intro-container">
               <h1>KONTAKT</h1>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
-                reiciendis esse repellendus maxime sapiente voluptates ipsum
-                inventore, earum sint ipsam veniam autem voluptatibus quae
-                tenetur commodi itaque animi quos sunt?
-              </p>
             </header>
           </div>
         </div>
         <form id="b-kontakt-formular" action="b-kontakt.html" method="post">
           <div class="row">
-            <div class="col-3">
+            <div class="col-1">
+              <label for="firma" class="screenreader">Firma:</label>
+              <input id="firma" type="text" name="firma" placeholder="Firma" />
+            </div>
+            <br /><br /><br /><br />
+            <div class="col-2">
               <label for="vorname" class="screenreader">Vorname:</label>
               <input
                 id="vorname"
@@ -122,7 +121,7 @@
                 placeholder="Vorname"
               />
             </div>
-            <div class="col-3">
+            <div class="col-2">
               <label for="nachname" class="screenreader">Nachname:</label>
               <input
                 id="nachname"
@@ -133,7 +132,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="div col-3">
+            <div class="div col-2">
               <label for="email" class="screenreader">E-Mail:</label>
               <input
                 id="email"
@@ -144,7 +143,7 @@
                 title="Gib eine gültige E-Mail Adresse ein!"
               />
             </div>
-            <div class="col-3">
+            <div class="col-2">
               <label for="telefon" class="screenreader">Telefon:</label>
               <input
                 id="telefon"
@@ -155,7 +154,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="div col-6">
+            <div class="div col-4">
               <label for="nachricht" class="screenreader">Nachricht:</label>
               <textarea
                 id="nachricht"
@@ -164,28 +163,45 @@
               ></textarea>
             </div>
           </div>
-          <div class="col-1">
-            <label for="leistungspaket" class="screenreader"
-              >Leistungspaket:</label
+          <div class="col-6">
+            <legend>Dienstleistung:</legend>
+              <select id="p-dropdown" name="Leistungen">
+                <option value="leistung#0"></option>
+                <option value="leistung#1">Event Filme</option>
+                <option value="leistung#2">Image Filme</option>
+                <option value="leistung#3">Unternehmensfilme</option>
+                <option value="leistung#4">Recruitingfilme</option>
+                <option value="leistung#5">Industrie- & Produktfilme</option>
+                <option value="leistung#6">Gaming Teaser & Trailer</option>
+                <option value="leistung#7">Postproduktion</option>
+                <option value="leistung#8">Individuell</option>
+              </select>
+            <legend>Paketauswahl:</legend>
+              <select id="p-dropdown-paket" name="paket">
+                  <option value="paket#0"></option>
+                  <option value="paket#1">Basic</option>
+                  <option value="paket#2">Advanced</option>
+                  <option value="paket#3">Premium</option>
+                  <option value="paket#4">Individuell</option>
+                </optgroup>
+              </select>
+        </div>
+        <div class="row">
+          <div class="div col-5">
+            <button
+              id="p-absendenbutton"
+              class="btn-typ-3"
+              type="submit"
+              name="submitbutton"
             >
-            <input
-              id="leistungspaket"
-              type="text"
-              name="leistungspaket"
-              placeholder="Leistungspaket"
-            />
+              Senden
+            </button>
           </div>
-          <div class="row">
-            <div class="div col-6">
-              <button
-                id="b-absendenbutton"
-                class="btn-typ-3"
-                type="submit"
-                name="submitbutton"
-              >
-                Senden
-              </button>
-            </div>
+          <div class="col-0">
+            <input class="checkbox" type="checkbox" name="agb" value="agb" />
+            <a id="checkbox" href="agb.html">AGBs</a>
+            Ckeck
+          </div>
           </div>
         </form>
       </div>
