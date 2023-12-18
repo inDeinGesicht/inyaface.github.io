@@ -1,899 +1,223 @@
 <!DOCTYPE html>
 <html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leistungen</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Leistungen</title>
+    <!-- FAVICON -->
 
-  <!-- FAVICON -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="src/img/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="src/img/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="src/img/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="src/img/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="src/img/favicons/safari-pinned-tab.svg"
+      color="#505050"
+    />
+    <link rel="shortcut icon" href="src/img/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#505050" />
+    <meta
+      name="msapplication-config"
+      content="src/img/favicons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="src/img/favicons/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="src/img/favicons/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="src/img/favicons/favicon-16x16.png" />
-  <link rel="manifest" href="src/img/favicons/site.webmanifest" />
-  <link rel="mask-icon" href="src/img/favicons/safari-pinned-tab.svg" color="#505050" />
-  <link rel="shortcut icon" href="src/img/favicons/favicon.ico" />
-  <meta name="msapplication-TileColor" content="#505050" />
-  <meta name="msapplication-config" content="src/img/favicons/browserconfig.xml" />
-  <meta name="theme-color" content="#ffffff" />
+    <!-- AUTOREN-STYLESHEET -->
 
-  <!-- AUTOREN-STYLESHEET -->
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css" />
+  </head>
 
-  <link rel="stylesheet" type="text/css" href="src/css/styles.css" />
-</head>
+  <body>
+    <!-- NAVIGATIONLEISTE-DESKTOP -->
 
-<body>
-  <!-- NAVIGATIONLEISTE-DESKTOP -->
+    <nav id="header-nav">
+      <div class="container" id="desktop-nav">
+        <div class="row">
+          <div class="col-6">
+            <a href="index.html" class="logo-link">
+              <img src="src/img/logo.gif" alt="Logo" />
+            </a>
 
-  <nav id="header-nav">
-    <div class="container" id="desktop-nav">
-      <div class="row">
-        <div class="col-6">
-          <a href="index.html" class="logo-link">
-            <img src="src/img/logo.gif" alt="Logo" />
-          </a>
-
-          <ul>
-            <li><a href="index.html">Startseite</a></li>
-            <li><a href="buisnesskunde.html">Buisnesskunde</a></li>
-            <li class="active"><a href="b-leistungen.html">Leistungen</a></li>
-            <li><a href="b-kontakt.html">Kontakt</a></li>
-          </ul>
+            <ul>
+              <li><a href="index.html">Startseite</a></li>
+              <li><a href="buisnesskunde.html">Buisnesskunde</a></li>
+              <li class="active"><a href="b-leistungen.html">Leistungen</a></li>
+              <li><a href="b-kontakt.html">Kontakt</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- NAVIGATIONLEISTE-MOBIL -->
+      <!-- NAVIGATIONLEISTE-MOBIL -->
 
-    <div class="container" id="mobile-nav">
-      <div class="row">
-        <div class="col-6">
-          <a href="index.html" class="logo-link">
-            <img src="src/img/logo.gif" alt="Logo" />
-          </a>
+      <div class="container" id="mobile-nav">
+        <div class="row">
+          <div class="col-6">
+            <a href="index.html" class="logo-link">
+              <img src="src/img/logo.gif" alt="Logo" />
+            </a>
 
-          <div class="clearfix" id="mobile-nav-dropdown">
-            <div id="mobile-nav-button"><span>&equiv;</span></div>
+            <div class="clearfix" id="mobile-nav-dropdown">
+              <div id="mobile-nav-button"><span>&equiv;</span></div>
 
-            <div class="clearfix" id="mobile-nav-content">
-              <ul>
-                <li><a href="index.html">Startseite</a></li>
-                <li><a href="buisnesskunde.html">Buisnesskunde</a></li>
-                <li class="active">
-                  <a href="b-leistungen.html">Leistungen</a>
-                </li>
-                <li><a href="b-kontakt.html">Kontakt</a></li>
-              </ul>
+              <div class="clearfix" id="mobile-nav-content">
+                <ul>
+                  <li><a href="index.html">Startseite</a></li>
+                  <li><a href="buisnesskunde.html">Buisnesskunde</a></li>
+                  <li class="active">
+                    <a href="b-leistungen.html">Leistungen</a>
+                  </li>
+                  <li><a href="b-kontakt.html">Kontakt</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- HEADER -->
+    <!-- HEADER -->
 
-  <header id="header-banner-klein"></header>
+    <header id="header-banner-klein"></header>
 
-  <!-- LEISTUNGEN #1 -->
+    <!-- LEISTUNGEN #1 -->
 
-  <section class="b-leistung" id="b-leistung1">
-    <div class="flex-container">
-      <header class="intro-container">
-        <h1>Eventfilme</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
-          reiciendis esse repellendus maxime sapiente voluptates ipsum
-          inventore, earum sint ipsam veniam autem voluptatibus quae tenetur
-          commodi itaque animi quos sunt?
-        </p>
-      </header>
-    </div>
-    <div class="flex-container">
-      <article class="b-leistungs-box">
-        <h1>Basic</h1>
-        <div>
+    <section class="b-leistung" id="b-leistung1">
+      <div class="flex-container">
+        <header class="intro-container">
+          <h1>Eventfilme</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-            quia. Dignissimos iusto voluptas itaque nisi eos facilis,
-            assumenda, aliquid, ad eaque beatae consequuntur consectetur
-            officiis dicta? Incidunt magni quasi praesentium!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
+            reiciendis esse repellendus maxime sapiente voluptates ipsum
+            inventore, earum sint ipsam veniam autem voluptatibus quae tenetur
+            commodi itaque animi quos sunt?
           </p>
-          <ul>
-            <li>Tagesbegleitung</li>
-            <li>Nur Videos !</li>
-            <li>lorem ipsum dumm dumm doof</li>
-            <li>lorem ipsum dumm dumm doof</li>
-            <li>Alle Medien Digital Verfügbar</li>
-          </ul>
-        </div>
-        <a
+        </header>
+      </div>
+      <div class="flex-container">
+        <article class="b-leistungs-box">
+          <h1>Basic</h1>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+              quia. Dignissimos iusto voluptas itaque nisi eos facilis,
+              assumenda, aliquid, ad eaque beatae consequuntur consectetur
+              officiis dicta? Incidunt magni quasi praesentium!
+            </p>
+            <ul>
+              <li>Tagesbegleitung</li>
+              <li>Nur Videos !</li>
+              <li>lorem ipsum dumm dumm doof</li>
+              <li>lorem ipsum dumm dumm doof</li>
+              <li>Alle Medien Digital Verfügbar</li>
+            </ul>
+            <p>Anzahlung Nötig!</p>
+            <p>Alle Preise zzgl. Reisekosten! ab 50km</p>
+          </div>
+          <a
             type="button"
             class="btn-typ-2 b-leistung-auswählen-btn"
             href="b-kontakt.html"
           >
             Kontakt
           </a>
-      </article>
-      <article class="b-leistungs-box b-leistungs-box-empfohlen">
-        <h1>Advanced</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            quibusdam amet, eum blanditiis quisquam, consectetur reiciendis
-            quaerat fugiat quas quo ratione, magnam assumenda expedita
-            laboriosam aliquid temporibus error necessitatibus ullam.
-          </p>
-          <ul>
-            <li>Wochendbegleitung</li>
-            <li>Videos- & Fotos</li>
-            <li>Interviews auf Wunsch</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
+        </article>
+        <article class="b-leistungs-box b-leistungs-box-empfohlen">
+          <h1>Advanced</h1>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              quibusdam amet, eum blanditiis quisquam, consectetur reiciendis
+              quaerat fugiat quas quo ratione, magnam assumenda expedita
+              laboriosam aliquid temporibus error necessitatibus ullam.
+            </p>
+            <ul>
+              <li>Wochendbegleitung</li>
+              <li>Videos- & Fotos</li>
+              <li>Interviews auf Wunsch</li>
+              <li>lorem ipsum dumm dumm und doof</li>
+              <li>lorem ipsum dumm dumm und doof</li>
+              <li>lorem ipsum dumm dumm und doof</li>
+              <li>lorem ipsum dumm dumm und doof</li>
+            </ul>
+            <p>Anzahlung Nötig!</p>
+            <p>Alle Preise zzgl. Reisekosten! ab 50km</p>
+          </div>
+          <a
             type="button"
             class="btn-typ-2 b-leistung-auswählen-btn"
             href="b-kontakt.html"
           >
             Kontakt
           </a>
-      </article>
-      <article class="b-leistungs-box">
-        <h1>Premium</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-            repudiandae similique consequatur rerum ipsa nemo quasi illo unde
-            vel quis nihil, odio, a error commodi exercitationem impedit esse
-            cum suscipit!
-          </p>
-          <ul>
-            <li>1 Woche Begleitung</li>
-            <li>Film,- Videos- & Fotos</li>
-            <li>Auf Wunsch mit Interviews</li>
-            <li>Umfassendes Konzept & Script</li>
-            <li>Alle Medien Digital Verfügbar</li>
-            <li>Alle Medien auf Speichermedium</li>
-            <li>Rundum Sorglos Paket</li>
-            <li>Inkl. Reisekosten!</li>
-            <li>Vorauszahlung Nötig!</li>
-          </ul>
-        </div>
-        <a
+        </article>
+        <article class="b-leistungs-box">
+          <h1>Premium</h1>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              repudiandae similique consequatur rerum ipsa nemo quasi illo unde
+              vel quis nihil, odio, a error commodi exercitationem impedit esse
+              cum suscipit!
+            </p>
+            <ul>
+              <li>1 Woche Begleitung</li>
+              <li>Film,- Videos- & Fotos</li>
+              <li>Auf Wunsch mit Interviews</li>
+              <li>Umfassendes Konzept & Script</li>
+              <li>Alle Medien Digital Verfügbar</li>
+              <li>Alle Medien auf Speichermedium</li>
+              <li>Rundum Sorglos Paket</li>
+              <li>bla</li>
+              <li>bla</li>
+            </ul>
+            <p>Anzahlung Nötig!</p>
+            <p>Alle Preise inkl. Reisekosten! ab 50km</p>
+          </div>
+          <a
             type="button"
             class="btn-typ-2 b-leistung-auswählen-btn"
             href="b-kontakt.html"
           >
             Kontakt
           </a>
-      </article>
-    </div>
-  </section>
+        </article>
+      </div>
+    </section>
 
-  <!-- LEISTUNGEN #2 -->
+    <!-- FOOTER -->
 
-  <section class="b-leistung" id="b-leistung2">
-    <div class="flex-container">
-      <header class="intro-container">
-        <h1>Imagefilme</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
-          reiciendis esse repellendus maxime sapiente voluptates ipsum
-          inventore, earum sint ipsam veniam autem voluptatibus quae tenetur
-          commodi itaque animi quos sunt?
-        </p>
-      </header>
-    </div>
-    <div class="flex-container">
-      <article class="b-leistungs-box">
-        <h1>Basic</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-            quia. Dignissimos iusto voluptas itaque nisi eos facilis,
-            assumenda, aliquid, ad eaque beatae consequuntur consectetur
-            officiis dicta? Incidunt magni quasi praesentium!
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-      <article class="b-leistungs-box b-leistungs-box-empfohlen">
-        <h1>Advanced</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            quibusdam amet, eum blanditiis quisquam, consectetur reiciendis
-            quaerat fugiat quas quo ratione, magnam assumenda expedita
-            laboriosam aliquid temporibus error necessitatibus ullam.
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-      <article class="b-leistungs-box">
-        <h1>Premium</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-            repudiandae similique consequatur rerum ipsa nemo quasi illo unde
-            vel quis nihil, odio, a error commodi exercitationem impedit esse
-            cum suscipit!
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-    </div>
-  </section>
-
-  <!-- LEISTUNGEN #3 -->
-
-  <section class="b-leistung" id="b-leistung3">
-    <div class="flex-container">
-      <header class="intro-container">
-        <h1>Unternehmensfilme</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
-          reiciendis esse repellendus maxime sapiente voluptates ipsum
-          inventore, earum sint ipsam veniam autem voluptatibus quae tenetur
-          commodi itaque animi quos sunt?
-        </p>
-      </header>
-    </div>
-    <div class="flex-container">
-      <article class="b-leistungs-box">
-        <h1>Basic</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-            quia. Dignissimos iusto voluptas itaque nisi eos facilis,
-            assumenda, aliquid, ad eaque beatae consequuntur consectetur
-            officiis dicta? Incidunt magni quasi praesentium!
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-      <article class="b-leistungs-box b-leistungs-box-empfohlen">
-        <h1>Advanced</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            quibusdam amet, eum blanditiis quisquam, consectetur reiciendis
-            quaerat fugiat quas quo ratione, magnam assumenda expedita
-            laboriosam aliquid temporibus error necessitatibus ullam.
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-      <article class="b-leistungs-box">
-        <h1>Premium</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-            repudiandae similique consequatur rerum ipsa nemo quasi illo unde
-            vel quis nihil, odio, a error commodi exercitationem impedit esse
-            cum suscipit!
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-    </div>
-  </section>
-
-  <!-- LEISTUNGEN #4 -->
-
-  <section class="b-leistung" id="b-leistung4">
-    <div class="flex-container">
-      <header class="intro-container">
-        <h1>Recruitingfilme</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
-          reiciendis esse repellendus maxime sapiente voluptates ipsum
-          inventore, earum sint ipsam veniam autem voluptatibus quae tenetur
-          commodi itaque animi quos sunt?
-        </p>
-      </header>
-    </div>
-    <div class="flex-container">
-      <article class="b-leistungs-box">
-        <h1>Basic</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-            quia. Dignissimos iusto voluptas itaque nisi eos facilis,
-            assumenda, aliquid, ad eaque beatae consequuntur consectetur
-            officiis dicta? Incidunt magni quasi praesentium!
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-      <article class="b-leistungs-box b-leistungs-box-empfohlen">
-        <h1>Advanced</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            quibusdam amet, eum blanditiis quisquam, consectetur reiciendis
-            quaerat fugiat quas quo ratione, magnam assumenda expedita
-            laboriosam aliquid temporibus error necessitatibus ullam.
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-      <article class="b-leistungs-box">
-        <h1>Premium</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-            repudiandae similique consequatur rerum ipsa nemo quasi illo unde
-            vel quis nihil, odio, a error commodi exercitationem impedit esse
-            cum suscipit!
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-    </div>
-  </section>
-
-  <!-- LEISTUNGEN #5 -->
-
-  <section class="b-leistung" id="b-leistung5">
-    <div class="flex-container">
-      <header class="intro-container">
-        <h1>Industrie- & Produktfilme</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
-          reiciendis esse repellendus maxime sapiente voluptates ipsum
-          inventore, earum sint ipsam veniam autem voluptatibus quae tenetur
-          commodi itaque animi quos sunt?
-        </p>
-      </header>
-    </div>
-    <div class="flex-container">
-      <article class="b-leistungs-box">
-        <h1>Basic</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-            quia. Dignissimos iusto voluptas itaque nisi eos facilis,
-            assumenda, aliquid, ad eaque beatae consequuntur consectetur
-            officiis dicta? Incidunt magni quasi praesentium!
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-      <article class="b-leistungs-box b-leistungs-box-empfohlen">
-        <h1>Advanced</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            quibusdam amet, eum blanditiis quisquam, consectetur reiciendis
-            quaerat fugiat quas quo ratione, magnam assumenda expedita
-            laboriosam aliquid temporibus error necessitatibus ullam.
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-      <article class="b-leistungs-box">
-        <h1>Premium</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-            repudiandae similique consequatur rerum ipsa nemo quasi illo unde
-            vel quis nihil, odio, a error commodi exercitationem impedit esse
-            cum suscipit!
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-    </div>
-  </section>
-
-  <!-- LEISTUNGEN #6 -->
-
-  <section class="b-leistung" id="b-leistung6">
-    <div class="flex-container">
-      <header class="intro-container">
-        <h1>Gaming Teaser & Trailer</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
-          reiciendis esse repellendus maxime sapiente voluptates ipsum
-          inventore, earum sint ipsam veniam autem voluptatibus quae tenetur
-          commodi itaque animi quos sunt?
-        </p>
-      </header>
-    </div>
-    <div class="flex-container">
-      <article class="b-leistungs-box">
-        <h1>Basic</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-            quia. Dignissimos iusto voluptas itaque nisi eos facilis,
-            assumenda, aliquid, ad eaque beatae consequuntur consectetur
-            officiis dicta? Incidunt magni quasi praesentium!
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-      <article class="b-leistungs-box b-leistungs-box-empfohlen">
-        <h1>Advanced</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            quibusdam amet, eum blanditiis quisquam, consectetur reiciendis
-            quaerat fugiat quas quo ratione, magnam assumenda expedita
-            laboriosam aliquid temporibus error necessitatibus ullam.
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-      <article class="b-leistungs-box">
-        <h1>Premium</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-            repudiandae similique consequatur rerum ipsa nemo quasi illo unde
-            vel quis nihil, odio, a error commodi exercitationem impedit esse
-            cum suscipit!
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-    </div>
-  </section>
-
-  <!-- LEISTUNGEN #7 -->
-
-  <section class="b-leistung" id="b-leistung7">
-    <div class="flex-container">
-      <header class="intro-container">
-        <h1>Postproduktion</h1>
-        <p>
-        <p>
-          Sie haben Fotos und Videomaterial herumliegen, das Sie gerne
-          geschnitten und bearbeitet haben möchten?
-          <li>
-            Wir schneiden Ihr Material professionell zu einem Video für
-            Plattformen wie YouTube, Instagram, TikTiok, Ihr Unternehmen, oder für Events, etc.
-          </li>
-        </p>
-        </p>
-      </header>
-    </div>
-    <div class="flex-container">
-      <article class="b-leistungs-box">
-        <h1>Basic</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-            quia. Dignissimos iusto voluptas itaque nisi eos facilis,
-            assumenda, aliquid, ad eaque beatae consequuntur consectetur
-            officiis dicta? Incidunt magni quasi praesentium!
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-      <article class="b-leistungs-box b-leistungs-box-empfohlen">
-        <h1>Advanced</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            quibusdam amet, eum blanditiis quisquam, consectetur reiciendis
-            quaerat fugiat quas quo ratione, magnam assumenda expedita
-            laboriosam aliquid temporibus error necessitatibus ullam.
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-      <article class="b-leistungs-box">
-        <h1>Premium</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-            repudiandae similique consequatur rerum ipsa nemo quasi illo unde
-            vel quis nihil, odio, a error commodi exercitationem impedit esse
-            cum suscipit!
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-    </div>
-  </section>
-
-  <!-- LEISTUNGEN #8 -->
-
-  <section class="b-leistung" id="b-leistung8">
-    <div class="flex-container">
-      <header class="intro-container">
-        <h1>Ihr Projekt - Ihre Vision!</h1>
-        <p>
-          Nichts dabei? Sie benötigen ein individuelles Angebot? Wählen Sie ein
-          Tarif-Modell, schreiben Sie uns an und wir vereinbaren einen Termin.
-        </p>
-        <p>
-          <li>
-            Wir bieten Discord / Skype / Loom / Zoom / Privat oder auch eine Location nach
-            Wahl für eine Zusammenkunft an.
-          </li>
-        </p>
-      </header>
-    </div>
-    <div class="flex-container">
-      <article class="b-leistungs-box">
-        <h1>Basic</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-            quia. Dignissimos iusto voluptas itaque nisi eos facilis,
-            assumenda, aliquid, ad eaque beatae consequuntur consectetur
-            officiis dicta? Incidunt magni quasi praesentium!
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-      <article class="b-leistungs-box b-leistungs-box-empfohlen">
-        <h1>Advanced</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            quibusdam amet, eum blanditiis quisquam, consectetur reiciendis
-            quaerat fugiat quas quo ratione, magnam assumenda expedita
-            laboriosam aliquid temporibus error necessitatibus ullam.
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-      <article class="b-leistungs-box">
-        <h1>Premium</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-            repudiandae similique consequatur rerum ipsa nemo quasi illo unde
-            vel quis nihil, odio, a error commodi exercitationem impedit esse
-            cum suscipit!
-          </p>
-          <ul>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-            <li>lorem ipsum dumm dumm und doof</li>
-          </ul>
-        </div>
-        <a
-            type="button"
-            class="btn-typ-2 b-leistung-auswählen-btn"
-            href="b-kontakt.html"
-          >
-            Kontakt
-          </a>
-      </article>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-
-  <footer id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <span>inDein-_-Gesicht Film Production by Oliver Meth (2023)</span>
-          <nav id="footer-nav">
-            <a href="impressum.html">Impressum</a>
-            <a href="agb.html">AGB</a>
-          </nav>
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <span>inDein-_-Gesicht Film Production by Oliver Meth (2023)</span>
+            <nav id="footer-nav">
+              <a href="impressum.html">Impressum</a>
+              <a href="agb.html">AGB</a>
+            </nav>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
-  <script defer>
-    document.addEventListener("touchstart", function () { }, true);
-  </script>
-</body>
-
+    </footer>
+    <script defer>
+      document.addEventListener("touchstart", function () {}, true);
+    </script>
+  </body>
 </html>

@@ -872,6 +872,10 @@ section {
     background: var(--dunkel-grau-2) url("../img/services-sprite.png") -240px 0;
 }
 
+.hinweis {
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     #service-bereich>.container>.row:nth-of-type(2)>.col-2>.service-box {
         margin-right: auto;
