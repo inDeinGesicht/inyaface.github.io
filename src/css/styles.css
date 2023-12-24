@@ -274,6 +274,7 @@ section {
     display: inline-block;
 }
 
+
 /* === NAVIGATIONSLEISTE (MOBILE) === */
 
 #mobile-nav-button {
@@ -581,6 +582,52 @@ section {
     padding-top: 20.00%;
     background: url("../img/bg03.png");
     background-size: contain;
+}
+
+/* Social Media Bar */
+
+.sidebar-start {
+    text-decoration: none;
+    height: 250px;
+    width: 10px;
+    position: fixed;
+    text-align: center;
+    padding: 250px;
+    margin-left: -250px;
+    z-index: 150;
+}
+
+.sidebar {
+    text-decoration: none;
+    height: 250px;
+    width: 10px;
+    position: absolute;
+    text-align: center;
+    padding: 100px;
+    margin-left: -100px;
+}
+
+.youtube {
+}
+
+.youtube:hover {
+    box-shadow: 5px -40px 20px 0px var(--blau);
+}
+
+.facebook:hover {
+    box-shadow: 5px -40px 20px 0px var(--blau);
+}
+
+.twitter:hover {
+    box-shadow: 5px -40px 20px 0px var(--blau);
+}
+
+.instagram:hover {
+    box-shadow: 5px -40px 20px 0px var(--blau);
+}
+
+.pinterest:hover {
+    box-shadow: 5px -40px 20px 0px var(--blau);
 }
 
 /* === LEISTUNGEN-BEREICH-PRIVAT === */
@@ -1794,7 +1841,7 @@ section {
     justify-content: center;
     column-gap: 18rem;
     flex-direction: inherit;
-    z-index: 900;
+    z-index: 100;
 }
 
 #buttonContainer a {
