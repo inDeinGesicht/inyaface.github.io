@@ -1540,6 +1540,16 @@ section {
 
 }
 
+#zitat1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#zitat2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 #über-uns-bereich a {
     color: var(--weiß);
 }
