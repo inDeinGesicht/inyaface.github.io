@@ -488,11 +488,11 @@ section {
         bottom: 100%; 
     }
     .video-main {
-        top: -60px;
+        top: -20px;
         bottom: 100%; 
     }
     #buttonContainer {
-        top: -150px;
+        top: -100px;
     }
 }
 
@@ -544,11 +544,11 @@ section {
         bottom: 100%; 
     }
     .video-main {
-        top: -140px;
+        top: -100px;
         bottom: 100%; 
     }
     #buttonContainer {
-        top: -240px;
+        top: -180px;
     }
 }
 
