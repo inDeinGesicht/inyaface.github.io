@@ -468,7 +468,7 @@ section {
         bottom: 100%; 
     }
     #buttonContainer {
-        top: 10px;
+        top: 0;
     }
 }
 
