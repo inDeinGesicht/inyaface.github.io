@@ -566,6 +566,22 @@ section {
     }
 }
 
+@media (max-width: 480px) {
+    .logo {
+        top: 90px;
+        bottom: 100%; 
+    }
+    .video-main {
+        top: -220px;
+        bottom: 100%; 
+    }
+    #buttonContainer {
+        top: -210px;
+        left: 136px;
+        display: block;
+    }
+}
+
 @media (max-width: 320px) {
     .logo {
         top: 85px;
@@ -576,7 +592,7 @@ section {
         bottom: 100%; 
     }
     #buttonContainer {
-        top: -280px;
+        top: -250px;
         left: 60px;
         display: block;
     }
