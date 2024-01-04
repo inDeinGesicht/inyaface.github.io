@@ -568,6 +568,14 @@ section {
 
 /* === HEADER-BANNER === */
 
+#header-banner-start {
+    width: 100%;
+    height: 0;
+    padding-top: 20.00%;
+    background: url("../img/bg03.png");
+    background-size: contain;
+}
+
 #header-banner {
     width: 100%;
     height: 0;
