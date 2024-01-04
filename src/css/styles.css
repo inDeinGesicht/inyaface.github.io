@@ -980,7 +980,7 @@ section {
     text-decoration: underline;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 160px) {
     #footer span {
         display: none;
     }
@@ -1031,7 +1031,7 @@ section {
     text-decoration: underline;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 160px) {
     #footer-start span {
         display: none;
     }
