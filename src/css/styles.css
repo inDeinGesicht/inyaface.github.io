@@ -420,7 +420,7 @@ section {
 
 @media (max-width: 2560px) {
     .logo {
-        top: 300px;
+        top: 160px;
         bottom: 100%; 
     }
 }
@@ -464,7 +464,7 @@ section {
 
 @media (max-width: 1366px) {
     .logo {
-        top: 100px;
+        top: 60px;
         bottom: 100%; 
     }
     #buttonContainer {
