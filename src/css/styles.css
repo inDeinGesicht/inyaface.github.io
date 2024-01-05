@@ -204,10 +204,6 @@ section {
 
 /* Social Media Bar */
 
-#footer-social {
-    z-index: 350px;
-}
-
 .social {
     justify-content: space-evenly;
     display: flex;
