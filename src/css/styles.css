@@ -204,15 +204,20 @@ section {
 
 /* Social Media Bar */
 
+#footer-social {
+    z-index: 350px;
+}
+
 .social {
     justify-content: space-evenly;
     display: flex;
     align-items: center;
-    z-index: 150px;
+    z-index: 250px;
 }
 
 .social a {
     text-decoration: none;
+    z-index: 250px;
 }
 
 .social a>img {
@@ -1063,7 +1068,7 @@ section {
 }
  
 .slider {
-    height: 100px;
+    height: 70px;
     margin: auto;
     padding-top: 15px;
     overflow: hidden;
