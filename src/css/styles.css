@@ -204,6 +204,22 @@ section {
 
 /* Social Media Bar */
 
+.social-start {
+    padding-top: 200px;
+    align-items: center;
+    z-index: 250px;
+}
+
+.social-start a {
+    text-decoration: none;
+    z-index: 250px;
+}
+
+.social-start a>img {
+    height: 50px;
+    width: auto;
+}
+
 .social {
     justify-content: space-evenly;
     display: flex;
@@ -1064,7 +1080,7 @@ section {
 }
  
 .slider {
-    height: 70px;
+    height: 100px;
     margin: auto;
     padding-top: 15px;
     overflow: hidden;
