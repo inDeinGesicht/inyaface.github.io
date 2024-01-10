@@ -641,10 +641,9 @@ section {
     width: 100%;
     height: auto;
     padding-top: 36.00%;
-    padding-bottom: 2000px;
+    padding-bottom: 1000px;
     position: fixed;
     background: url("../img/bg01.png");
-    background-size: auto;
 }
 
 #header-banner {
