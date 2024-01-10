@@ -1604,9 +1604,56 @@ section {
     }
 }
 
+/* === KONTAKT-SEITE === */
+
+#kontakt-bereich {
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 20px 10px var(--schwarz);
+    color: var(--weiß);
+    background-color: var(--dunkel-grau);
+}
+
+.kontaktdaten {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--dunkel-grau-2);
+    box-shadow: 0 0 20px 10px var(--blau);
+    text-align: center;
+    color: var(--weiß);
+    border-radius: 6px;
+}
+
+.kontaktdaten p {
+    padding: 0;
+    margin: 0;
+}
+
+.kontaktdaten ul {
+    padding: 1rem;
+    margin: 0;
+}
+
+.kontaktdaten span {
+    color: var(--blau);
+}
+
+.kontaktdaten a {
+    color: var(--weiß);
+}
+
+.kontaktdaten a:hover {
+    color: var(--blau);
+}
+
+.kontaktdaten a>img {
+    height: 100px;
+    width: auto;
+}
+
 /* === KONTAKT-SEITE-PRIVAT === */
 
-#p-kontakt-bereich {
+/* #p-kontakt-bereich {
     padding-top: 1rem;
     padding-bottom: .4rem;
     box-shadow: 0 0 20px 10px var(--schwarz);
@@ -1710,11 +1757,11 @@ section {
     #p-kontakt-formular button {
         width: 100%;
     }
-}
+} */
 
 /* === KONTAKT-SEITE-BUISNESS === */
 
-#b-kontakt-bereich {
+/* #b-kontakt-bereich {
     padding-top: 1rem;
     box-shadow: 0 0 20px 10px var(--schwarz);
     color: var(--weiß);
@@ -1780,7 +1827,7 @@ section {
     #b-kontakt-formular button {
         width: 100%;
     }
-}
+} */
 
 /* === IMPRESSUM === */
 
@@ -1796,6 +1843,16 @@ section {
     padding: 2rem 4rem;
     text-align: left;
     flex-direction: column;
+}
+
+.impressum-box a {
+    color: var(--weiß);
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.impressum-box a:hover {
+    color: var(--blau);
 }
 
 .datenschutz {

@@ -132,7 +132,7 @@
           <div class="row">
             <div class="col-2">
               <label for="firma" class="screenreader">Firma:</label>
-              <input id="firma" type="text" name="firma" placeholder="Firma" />
+              <input id="firma" type="text" name="firma" required placeholder="Firma" />
             </div>
             <br /><br /><br /><br />
             <div class="col-2">
@@ -141,6 +141,7 @@
                 id="vorname"
                 type="text"
                 name="vorname"
+                required
                 placeholder="Vorname"
               />
             </div>
@@ -150,6 +151,7 @@
                 id="nachname"
                 type="text"
                 name="nachname"
+                required
                 placeholder="Nachname"
               />
             </div>
@@ -161,6 +163,7 @@
                 id="email"
                 type="text"
                 name="email"
+                required
                 placeholder="E-Mail"
                 pattern="(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\u0022(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*\u0022)@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])"
                 title="Gib eine gültige E-Mail Adresse ein!"
@@ -172,6 +175,7 @@
                 id="telefon"
                 type="text"
                 name="telefon"
+                required
                 placeholder="Telefon"
               />
             </div>
@@ -182,6 +186,7 @@
               <textarea
                 id="nachricht"
                 name="nachricht"
+                required
                 placeholder="Nachricht"
               ></textarea>
             </div>
