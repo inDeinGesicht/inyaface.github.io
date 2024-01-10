@@ -448,11 +448,11 @@ section {
 
 @media (max-width: 1920px) {
     .logo {
-        top: 30px;
+        top: 45px;
         bottom: 100%; 
     }
     #buttonContainer {
-        top: 80px;
+        top: 90px;
     }
 }
 
@@ -640,7 +640,9 @@ section {
 #header-banner-start {
     width: 100%;
     height: auto;
-    padding-top: 37.00%;
+    padding-top: 36.00%;
+    padding-bottom: 2000px;
+    position: fixed;
     background: url("../img/bg01.png");
     background-size: auto;
 }
