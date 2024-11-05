@@ -747,7 +747,7 @@ section {
     }
 }
 
-/* === LEISTUNGEN-BEREICH-BUISNESS === */
+/* === LEISTUNGEN-BEREICH-Business === */
 
 #b-leistungen-bereich {
     padding-top: 1rem;
@@ -1283,7 +1283,7 @@ section {
     }
 }
 
-/* === LEISTUNGEN-SEITE-BUISNESS === */
+/* === LEISTUNGEN-SEITE-Business === */
 
 .b-leistung {
     padding-top: 2rem;
@@ -1655,7 +1655,7 @@ section {
 
 /* === KONTAKT-SEITE-PRIVAT === */
 
-/* #p-kontakt-bereich {
+#p-kontakt-bereich {
     padding-top: 1rem;
     padding-bottom: .4rem;
     box-shadow: 0 0 20px 10px var(--schwarz);
@@ -1759,11 +1759,11 @@ section {
     #p-kontakt-formular button {
         width: 100%;
     }
-} */
+}
 
-/* === KONTAKT-SEITE-BUISNESS === */
+/* === KONTAKT-SEITE-Business === */
 
-/* #b-kontakt-bereich {
+#b-kontakt-bereich {
     padding-top: 1rem;
     box-shadow: 0 0 20px 10px var(--schwarz);
     color: var(--weiß);
@@ -1829,7 +1829,7 @@ section {
     #b-kontakt-formular button {
         width: 100%;
     }
-} */
+}
 
 /* === IMPRESSUM === */
 
