@@ -357,8 +357,14 @@ section {
 
 .logo {
     width: 100%;
-    height: 50%;
-    display: none;
+    height: 100%;
+    margin-top: 75px;
+    object-fit: contain;
+    object-position: 20%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .video-main {
@@ -413,11 +419,103 @@ section {
     margin-top: 53vh;
 }
 
+@media (max-width: 3440px) {
+    .logo {
+        top: -70px;
+        bottom: 100%; 
+    }
+}
+
+@media (max-width: 3200px) {
+    .logo {
+        top: -35px;
+        bottom: 100%; 
+    }
+}
+
+@media (max-width: 2560px) {
+    .logo {
+        top: 160px;
+        bottom: 100%; 
+    }
+}
+
+@media (max-width: 2048px) {
+}
+
+@media (max-width: 1920px) {
+    #buttonContainer {
+        top: 90px;
+    }
+}
+
+@media (max-width: 1600px) {
+    #buttonContainer {
+        top: -90px;
+    }
+}
+
+@media (max-width: 1440px) {
+    #buttonContainer {
+        top: -90px;
+    }
+}
+
+@media (max-width: 1366px) {
+    #buttonContainer {
+        top: 0;
+    }
+}
+
+@media (max-width: 1280px) {
+    #buttonContainer {
+        top: -90px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .video-main {
+        top: -20px;
+        bottom: 100%; 
+    }
+    #buttonContainer {
+        top: -100px;
+    }
+}
+
+@media (max-width: 960px) {
+    .video-main {
+        top: -40px;
+        bottom: 100%; 
+    }
+    #buttonContainer {
+        top: -120px;
+    }
+}
+
+@media (max-width: 854px) {
+    .video-main {
+        top: -80px;
+        bottom: 100%; 
+    }
+    #buttonContainer {
+        top: -160px;
+    }
+}
+
+@media (max-width: 800px) {
+    .video-main {
+        top: -90px;
+        bottom: 100%; 
+    }
+    #buttonContainer {
+        top: -180px;
+    }
+}
+
 @media (max-width: 768px) {
     .logo {
-        display: flex;
-        margin-right: 1000px;
-        top: 100px;
+        top: 120px;
         bottom: 100%; 
     }
     .video-main {
