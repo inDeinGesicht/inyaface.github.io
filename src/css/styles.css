@@ -591,6 +591,7 @@ section {
 #header-banner-start {
     width: 100%;
     height: auto;
+    margin-top: -80px;
     padding-top: 36.00%;
     padding-bottom: 1000px;
     position: fixed;
