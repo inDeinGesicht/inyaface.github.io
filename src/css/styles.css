@@ -512,6 +512,7 @@ section {
 @media (max-width: 768px) {
     .logo {
         display: flex;
+        margin-top: -20px;
     }
     .video-main {
         top: -100px;
@@ -524,7 +525,7 @@ section {
 
 @media (max-width: 640px) {
     .logo {
-        margin-top: 20px;
+        margin-top: -10px;
     }
     .video-main {
         top: -140px;
@@ -537,7 +538,7 @@ section {
 
 @media (max-width: 480px) {
     .logo {
-        margin-top: 100px;
+        margin-top: 10px;
     }
     .video-main {
         top: -180px;
@@ -547,7 +548,7 @@ section {
 
 @media (max-width: 425px) {
     .logo {
-        margin-top: 140px;
+        margin-top: 40px;
     }
     .video-main {
         top: -195px;
@@ -557,7 +558,7 @@ section {
 
 @media (max-width: 375px) {
     .logo {
-        margin-top: 160px;
+        margin-top: 60px;
     }
     .video-main {
         top: -205px;
@@ -567,7 +568,7 @@ section {
 
 @media (max-width: 320px) {
     .logo {
-        margin-top: 190px;
+        margin-top: 90px;
     }
     .video-main {
         top: -220px;
