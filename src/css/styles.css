@@ -600,11 +600,17 @@ section {
 }
 
 #header-banner {
-    width: 100%;
-    height: 0;
-    padding-top: 20.00%;
+    width: auto;
+    height: 100%;
+    padding-top: 10.60%;
     background: url("../img/bg02.png");
-    background-size: contain;
+}
+
+#header-banner-kontakt {
+    width: auto;
+    height: 100%;
+    padding-top: 12.40%;
+    background: url("../img/bg02.png");
 }
 
 /* === LEISTUNGEN-BEREICH-PRIVAT === */
@@ -1117,6 +1123,10 @@ section {
     border-radius: 6px;
 }
 
+.p-leistungs-teaser-box {
+    margin-left: 125px;
+}
+
 .p-leistungs-box-empfohlen {
     flex-basis: 27.5%;
     min-height: 650px;
@@ -1189,6 +1199,9 @@ section {
     .flex-container {
         width: 90%;
     }
+    .p-leistungs-teaser-box {
+        margin-left: 50px;
+    }
 }
 
 @media (max-width: 1332px) {
@@ -1209,6 +1222,9 @@ section {
         width: 100%;
         padding-right: 2rem;
         padding-left: 2rem;
+    }
+    .p-leistungs-teaser-box {
+        margin-left: 0px;
     }
 }
 
@@ -1561,6 +1577,8 @@ section {
 /* === KONTAKT-SEITE === */
 
 #kontakt-bereich {
+    padding: 0;
+    margin: 0;
     box-shadow: 0 0 20px 10px var(--schwarz);
     color: var(--weiß);
     background-color: var(--dunkel-grau);
@@ -1604,6 +1622,8 @@ section {
 }
 
 /* === KONTAKT-SEITE-PRIVAT === */
+
+/* ===
 
 #p-kontakt-bereich {
     padding-top: 1rem;
@@ -1710,8 +1730,11 @@ section {
         width: 100%;
     }
 }
+    ===*/
 
 /* === KONTAKT-SEITE-Business === */
+
+/* ===
 
 #b-kontakt-bereich {
     padding-top: 1rem;
@@ -1780,6 +1803,8 @@ section {
         width: 100%;
     }
 }
+
+===*/
 
 /* === IMPRESSUM === */
 
