@@ -1866,6 +1866,12 @@ section {
     padding: 2rem 4rem;
 }
 
+/* === AGB === */
+
+#portfolio {
+   color: var(--weiß);
+}
+
 
 /* === GRID SYSTEM === */
 
