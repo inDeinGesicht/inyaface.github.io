@@ -362,6 +362,8 @@ section {
     flex-direction: column;
 }
 
+/*
+
 .video-main {
     position: absolute;
     top: 0;
@@ -369,25 +371,11 @@ section {
     width: 100%;
     height: 100%;
     overflow: hidden;
-}
-
-.video-main video {
-    /* Make video to at least 100% wide and tall */
-    min-width: 100%;
-    min-height: 100%;
     filter: brightness(.5);
     filter: blur(.100);
-
-    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
-    width: auto;
-    height: auto;
-
-    /* Center the video */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
+
+
 
 .leistung-ansehen-btn {
     height: 40px;
@@ -413,7 +401,8 @@ section {
 #buttonContainer a {
     background-color: var(--dunkelblau);
     margin-top: 53vh;
-}
+} 
+    */
 
 @media (max-width: 3440px) {
     .logo {
