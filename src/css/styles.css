@@ -605,7 +605,7 @@ section {
 
 @media (max-width: 425px) {
     #header-banner-kontakt {
-        display: none;
+        margin-top: 60px;
     }
 }
 
