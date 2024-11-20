@@ -603,7 +603,7 @@ section {
     background: url("../img/bg02.png");
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     #header-banner-kontakt {
         display: none;
     }
