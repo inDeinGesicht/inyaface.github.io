@@ -603,6 +603,12 @@ section {
     background: url("../img/bg02.png");
 }
 
+@media (max-width: 375px) {
+    .header-banner-kontakt {
+        display: none;
+    }
+}
+
 /* === LEISTUNGEN-BEREICH-PRIVAT === */
 
 #p-leistungen-bereich {
