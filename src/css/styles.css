@@ -1600,13 +1600,6 @@ section {
     width: auto;
 }
 
-@media (max-width: 480px) {
-
-    .kontaktdaten {
-        padding: 6.9rem;
-    }
-} 
-
 
 
 /* === KONTAKT-SEITE-PRIVAT === */
