@@ -1562,25 +1562,20 @@ section {
 /* === KONTAKT-SEITE === */
 
 #kontakt-bereich {
-    padding-top: 1rem;
+    padding: 0;
+    margin: 0;
     box-shadow: 0 0 20px 10px var(--schwarz);
     color: var(--weiß);
     background-color: var(--dunkel-grau);
 }
 
 .kontaktdaten {
-    padding: 2rem;
-    margin: 1rem;
+    padding: 1rem;
     background-color: var(--dunkel-grau-2);
     box-shadow: 0 0 20px 10px var(--blau);
     text-align: center;
     color: var(--weiß);
-    border-radius: 6px;
-}
-
-.kontaktdaten p {
-    padding: 0;
-    margin: 0;
+    border-radius: 10px;
 }
 
 .kontaktdaten ul {
@@ -1603,6 +1598,12 @@ section {
 .kontaktdaten a>img {
     height: 100px;
     width: auto;
+}
+
+@media (max-width: 480px) {
+
+    .kontaktdaten {
+    }
 }
 
 /* === KONTAKT-SEITE-PRIVAT === */
