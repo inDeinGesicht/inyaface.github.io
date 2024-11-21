@@ -1562,8 +1562,7 @@ section {
 /* === KONTAKT-SEITE === */
 
 #kontakt-bereich {
-    padding: 0;
-    margin: 0;
+    padding-top: 1rem;
     box-shadow: 0 0 20px 10px var(--schwarz);
     color: var(--weiß);
     background-color: var(--dunkel-grau);
