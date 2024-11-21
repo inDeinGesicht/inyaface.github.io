@@ -592,21 +592,9 @@ section {
 #header-banner {
     width: auto;
     height: 100%;
-    padding-top: 10.60%;
+    padding-top: 13%;
+    margin-top: -10px;
     background: url("../img/bg02.png");
-}
-
-#header-banner-kontakt {
-    width: auto;
-    height: 100%;
-    padding-top: 12.40%;
-    background: url("../img/bg02.png");
-}
-
-@media (max-width: 480px) {
-    #header-banner-kontakt {
-        margin-top: 60px;
-    }
 }
 
 /* === LEISTUNGEN-BEREICH-PRIVAT === */
@@ -1443,6 +1431,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 20px 10px var(--schwarz);
 }
 
 .home-img {
@@ -1581,7 +1570,7 @@ section {
 }
 
 .kontaktdaten {
-    padding: 1rem;
+    padding: 2rem;
     margin: 1rem;
     background-color: var(--dunkel-grau-2);
     box-shadow: 0 0 20px 10px var(--blau);
@@ -1867,7 +1856,6 @@ section {
 #portfolio {
    color: var(--weiß);
 }
-
 
 /* === GRID SYSTEM === */
 
