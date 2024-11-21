@@ -1570,7 +1570,7 @@ section {
 }
 
 .kontaktdaten {
-    padding: 1rem;
+    padding: 1.6rem;
     background-color: var(--dunkel-grau-2);
     box-shadow: 0 0 20px 10px var(--blau);
     text-align: center;
