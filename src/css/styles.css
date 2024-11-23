@@ -228,7 +228,7 @@ section {
     height: 50px;
     background-color: var(--dunkel-grau);
     box-shadow: 0 0 20px 10px var(--schwarz);
-    position: relative;
+    position: fixed;
     font-weight: bold;
     font-size: 1.1rem;
     z-index: 150;
@@ -592,8 +592,8 @@ section {
 #header-banner {
     width: auto;
     height: 100%;
-    padding-top: 13%;
-    margin-top: -10px;
+    padding: 6.5%;
+    margin-top: 40px;
     background: url("../img/bg02.png");
 }
 
@@ -914,6 +914,7 @@ section {
 
 #footer-nav {
     float: right;
+    
 }
 
 #footer-nav a {
