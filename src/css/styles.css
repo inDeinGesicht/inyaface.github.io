@@ -597,8 +597,8 @@ section {
     background: url("../img/bg02.png");
 }
 
-/* === LEISTUNGEN-BEREICH-PRIVAT === */
-
+/* === LEISTUNGEN-BEREICH === */
+/* ===
 #p-leistungen-bereich {
     padding-top: 1rem;
     box-shadow: 0 0 20px 10px var(--schwarz);
@@ -687,18 +687,19 @@ section {
     .p-leistungs-teaser-box {
         padding: 1rem 1rem 2rem;
     }
-}
+} 
+    === */
 
-/* === LEISTUNGEN-BEREICH-Business === */
+/* === LEISTUNGEN-BEREICH === */
 
-#b-leistungen-bereich {
+#leistungen-bereich {
     padding-top: 1rem;
     box-shadow: 0 0 20px 10px var(--schwarz);
     background-color: var(--dunkel-grau);
     color: var(--weiß);
 }
 
-.b-leistungs-teaser-box {
+.leistungs-teaser-box {
     background-color: var(--dunkel-grau-2);
     box-shadow: 0 0 20px 10px var(--schwarz);
     text-align: center;
@@ -710,21 +711,21 @@ section {
     border-radius: 6px;
 }
 
-#b-leistungen-bereich .row>.col-3:nth-of-type(even)>.b-leistungs-teaser-box {
+#leistungen-bereich .row>.col-3:nth-of-type(even)>.leistungs-teaser-box {
     margin-left: 1rem;
     margin-right: auto;
 }
 
-#b-leistungen-bereich .row>.col-3:nth-of-type(odd)>.b-leistungs-teaser-box {
+#leistungen-bereich .row>.col-3:nth-of-type(odd)>.leistungs-teaser-box {
     margin-right: 1rem;
     margin-left: auto;
 }
 
-.b-leistungs-teaser-box>h2 {
+.leistungs-teaser-box>h2 {
     font-size: 1.4rem;
 }
 
-.b-leistung-ansehen-btn {
+.leistung-ansehen-btn {
     height: 40px;
     display: inline-block;
     padding-top: .5rem;
@@ -733,48 +734,48 @@ section {
     margin-top: 1rem;
 }
 
-.b-leistung-ansehen-btn:link {
+.leistung-ansehen-btn:link {
     color: var(--weiß);
 }
 
-.b-leistung-ansehen-btn:visited {
+.leistung-ansehen-btn:visited {
     color: var(--weiß);
 }
 
-.b-leistung-ansehen-btn:active {
+.leistung-ansehen-btn:active {
     color: var(--weiß);
 }
 
-.b-leistung-ansehen-btn:hover {
+.leistung-ansehen-btn:hover {
     color: var(--blau);
     border: var(--border-style) var(--blau);
 }
 
 @media (max-width: 1366px) {
-    .b-leistungs-teaser-box {
+    .leistungs-teaser-box {
         width: 80%;
     }
 }
 
 @media (max-width: 1024px) {
-    .b-leistungs-teaser-box {
+    .leistungs-teaser-box {
         width: 100%;
         margin-bottom: 1rem;
     }
 }
 
 @media (max-width: 768px) {
-    #b-leistungen-bereich .row>.col-3:nth-of-type(even)>.b-leistungs-teaser-box {
+    #leistungen-bereich .row>.col-3:nth-of-type(even)>.leistungs-teaser-box {
         margin-left: auto;
     }
 
-    #b-leistungen-bereich .row>.col-3:nth-of-type(odd)>.b-leistungs-teaser-box {
+    #leistungen-bereich .row>.col-3:nth-of-type(odd)>.leistungs-teaser-box {
         margin-right: auto;
     }
 }
 
 @media (max-width: 480px) {
-    .b-leistungs-teaser-box {
+    .leistungs-teaser-box {
         padding: 1rem 1rem 2rem;
     }
 }
@@ -837,7 +838,7 @@ section {
 /* === SERVICE-BEREICH === */
 
 #service-bereich {
-    background-color: var(--dunkel-grau);
+    background-color: var(--dunkel-grau-2);
     color: var(--weiß);
 }
 
@@ -1040,7 +1041,7 @@ section {
 /* === SEITEN === */
 
 /* === LEISTUNGEN-SEITE-PRIVAT === */
-
+/* ===
 .p-leistung {
     padding-top: 2rem;
     padding-bottom: 4rem;
@@ -1235,25 +1236,26 @@ section {
         padding: .5rem 1rem 2rem 1rem;
     }
 }
+    === */
 
 /* === LEISTUNGEN-SEITE-Business === */
 
-.b-leistung {
+.leistung {
     padding-top: 2rem;
     padding-bottom: 4rem;
     background-color: var(--dunkel-grau);
     color: var(--weiß);
 }
 
-#b-leistung1 {
+#leistung1 {
     box-shadow: 0 0 20px 10px var(--schwarz);
 }
 
-.b-leistung:nth-of-type(even) {
+.leistung:nth-of-type(even) {
     background-color: #222222;
 }
 
-#b-leistung2 {
+#leistung2 {
 
     .b-leistungs-box,
     .b-leistungs-box-empfohlen:nth-of-type(even) {
@@ -1261,7 +1263,7 @@ section {
     }
 }
 
-#b-leistung4 {
+#leistung4 {
 
     .b-leistungs-box,
     .b-leistungs-box-empfohlen:nth-of-type(even) {
@@ -1269,7 +1271,7 @@ section {
     }
 }
 
-#b-leistung6 {
+#leistung6 {
 
     .b-leistungs-box,
     .b-leistungs-box-empfohlen:nth-of-type(even) {
@@ -1290,7 +1292,7 @@ section {
     width: 100%;
 }
 
-.b-leistungs-box {
+.leistungs-box {
     background-color: #222222;
     box-shadow: 0 0 20px 5px var(--schwarz);
     flex-basis: 25%;
@@ -1305,7 +1307,7 @@ section {
     border-radius: 6px;
 }
 
-.b-leistungs-box-empfohlen {
+.leistungs-box-empfohlen {
     flex-basis: 27.5%;
     min-height: 650px;
     box-shadow: 0 0 20px 15px var(--blau);
@@ -1313,24 +1315,24 @@ section {
     border-radius: 6px;
 }
 
-.b-leistungs-box h1 {
+.leistungs-box h1 {
     margin-bottom: 0;
     margin-top: 1.5rem;
     color: var(--weiß);
 }
 
-.b-leistungs-box ul {
+.leistungs-box ul {
     padding: 0;
     color: #00d9ffb4;
 }
 
-.b-leistungs-box ul li {
+.leistungs-box ul li {
     list-style-position: inside;
     margin-bottom: .5rem;
     text-align: left;
 }
 
-.b-leistung-auswählen-btn {
+.leistung-auswählen-btn {
     width: 50%;
     text-align: center;
     font-size: 1rem;
@@ -1341,27 +1343,27 @@ section {
 }
 
 @media (max-width: 1815px) {
-    .b-leistungs-box {
+    .leistungs-box {
         flex-basis: 27.5%;
     }
 
-    .b-leistungs-box-empfohlen {
+    .leistungs-box-empfohlen {
         flex-basis: 30%;
     }
 }
 
 @media (max-width: 1652px) {
-    .b-leistungs-box {
+    .leistungs-box {
         flex-basis: 30%;
     }
 
-    .b-leistungs-box-empfohlen {
+    .leistungs-box-empfohlen {
         flex-basis: 32.5%;
     }
 }
 
 @media (max-width: 1516px) {
-    .b-leistungs-box {
+    .leistungs-box {
         padding: 2rem 4rem;
     }
 
@@ -1369,7 +1371,7 @@ section {
         align-items: stretch;
     }
 
-    .b-leistungs-box-empfohlen {
+    .leistungs-box-empfohlen {
         min-height: initial;
     }
 }
@@ -1387,7 +1389,7 @@ section {
         padding: 0;
     }
 
-    .b-leistungs-box {
+    .leistungs-box {
         margin-bottom: 2rem;
         min-height: initial;
     }
@@ -1412,14 +1414,14 @@ section {
         width: 100%;
     }
 
-    .b-leistungs-box {
+    .leistungs-box {
         padding: 1rem 2rem;
     }
 }
 
 @media (max-width: 320px) {
 
-    .b-leistungs-box {
+    .leistungs-box {
         padding: .5rem 1rem 2rem 1rem;
     }
 }
