@@ -598,99 +598,6 @@ section {
 }
 
 /* === LEISTUNGEN-BEREICH === */
-/* ===
-#p-leistungen-bereich {
-    padding-top: 1rem;
-    box-shadow: 0 0 20px 10px var(--schwarz);
-    background-color: var(--dunkel-grau);
-    color: var(--weiß);
-}
-
-.p-leistungs-teaser-box {
-    background-color: var(--dunkel-grau-2);
-    box-shadow: 0 0 20px 10px var(--schwarz);
-    text-align: center;
-    color: var(--weiß);
-    padding: 1rem 3rem 2.5rem;
-    width: 60%;
-    min-width: 30px;
-    margin-bottom: 1.6rem;
-    border-radius: 6px;
-}
-
-
-#p-leistungen-bereich .row>.col-3:nth-of-type(even)>.p-leistungs-teaser-box {
-    margin-left: 1rem;
-    margin-right: auto;
-}
-
-#p-leistungen-bereich .row>.col-3:nth-of-type(odd)>.p-leistungs-teaser-box {
-    margin-right: 1rem;
-    margin-left: auto;
-}
-
-.p-leistungs-teaser-box>h2 {
-    font-size: 1.4rem;
-}
-
-.p-leistung-ansehen-btn {
-    height: 40px;
-    display: inline-block;
-    padding-top: .5rem;
-    min-width: 100px;
-    flex-basis: 11rem;
-    margin-top: 1vh;
-    background-color: transparent;
-}
-
-.p-leistung-ansehen-btn:link {
-    color: var(--weiß);
-}
-
-.p-leistung-ansehen-btn:visited {
-    color: var(--weiß);
-}
-
-.p-leistung-ansehen-btn:active {
-    color: var(--weiß);
-}
-
-.p-leistung-ansehen-btn:hover {
-    color: var(--blau);
-    border: var(--border-style) var(--blau);
-}
-
-@media (max-width: 1366px) {
-    .p-leistungs-teaser-box {
-        width: 80%;
-    }
-}
-
-@media (max-width: 1024px) {
-    .p-leistungs-teaser-box {
-        width: 100%;
-        margin-bottom: 1rem;
-    }
-}
-
-@media (max-width: 768px) {
-    #p-leistungen-bereich .row>.col-3:nth-of-type(even)>.p-leistungs-teaser-box {
-        margin-left: auto;
-    }
-
-    #p-leistungen-bereich .row>.col-3:nth-of-type(odd)>.p-leistungs-teaser-box {
-        margin-right: auto;
-    }
-}
-
-@media (max-width: 480px) {
-    .p-leistungs-teaser-box {
-        padding: 1rem 1rem 2rem;
-    }
-} 
-    === */
-
-/* === LEISTUNGEN-BEREICH === */
 
 #leistungen-bereich {
     padding-top: 1rem;
@@ -1040,43 +947,43 @@ section {
 
 /* === SEITEN === */
 
-/* === LEISTUNGEN-SEITE-PRIVAT === */
-/* ===
-.p-leistung {
+/* === Preis === */
+
+.preis {
     padding-top: 2rem;
     padding-bottom: 4rem;
     background-color: var(--dunkel-grau);
     color: var(--weiß);
 }
 
-#p-leistung1 {
+#preis1 {
     box-shadow: 0 0 20px 10px var(--schwarz);
 }
 
-.p-leistung:nth-of-type(even) {
+.preis:nth-of-type(even) {
     background-color: #222222;
 }
 
-#p-leistung2 {
+#preis2 {
 
-    .p-leistungs-box,
-    .p-leistungs-box-empfohlen:nth-of-type(even) {
+    .preis-box,
+    .preis-box-empfohlen:nth-of-type(even) {
         background-color: #333333;
     }
 }
 
 #p-leistung4 {
 
-    .p-leistungs-box,
-    .p-leistungs-box-empfohlen:nth-of-type(even) {
+    .preis-box,
+    .preis-box-empfohlen:nth-of-type(even) {
         background-color: #333333;
     }
 }
 
 #p-leistung6 {
 
-    .p-leistungs-box,
-    .p-leistungs-box-empfohlen:nth-of-type(even) {
+    .preis-box,
+    .preis-box-empfohlen:nth-of-type(even) {
         background-color: #333333;
     }
 }
@@ -1094,7 +1001,7 @@ section {
     width: 100%;
 }
 
-.p-leistungs-box {
+.preis-box {
     background-color: #222222;
     box-shadow: 0 0 20px 5px var(--schwarz);
     flex-basis: 25%;
@@ -1109,11 +1016,11 @@ section {
     border-radius: 6px;
 }
 
-.p-leistungs-teaser-box {
+.preis-teaser-box {
     margin-left: 125px;
 }
 
-.p-leistungs-box-empfohlen {
+.preis-box-empfohlen {
     flex-basis: 27.5%;
     min-height: 650px;
     box-shadow: 0 0 20px 15px var(--blau);
@@ -1121,18 +1028,18 @@ section {
     border-radius: 6px;
 }
 
-.p-leistungs-box h1 {
+.preis-box h1 {
     margin-bottom: 0;
     margin-top: 1.5rem;
     color: var(--weiß);
 }
 
-.p-leistungs-box ul {
+.preis-box ul {
     padding: 0;
     color: #00d9ffb4;
 }
 
-.p-leistungs-box>ul>li {
+.preis-box>ul>li {
     list-style-position: inside;
     margin-bottom: .5rem;
 }
@@ -1148,27 +1055,27 @@ section {
 }
 
 @media (max-width: 1815px) {
-    .p-leistungs-box {
+    .preis-box {
         flex-basis: 27.5%;
     }
 
-    .p-leistungs-box-empfohlen {
+    .preis-box-empfohlen {
         flex-basis: 30%;
     }
 }
 
 @media (max-width: 1652px) {
-    .p-leistungs-box {
+    .preis-box {
         flex-basis: 30%;
     }
 
-    .p-leistungs-box-empfohlen {
+    .preis-box-empfohlen {
         flex-basis: 32.5%;
     }
 }
 
 @media (max-width: 1516px) {
-    .p-leistungs-box {
+    .preis-box {
         padding: 2rem 4rem;
     }
 
@@ -1176,7 +1083,7 @@ section {
         align-items: stretch;
     }
 
-    .p-leistungs-box-empfohlen {
+    .preis-box-empfohlen {
         min-height: initial;
     }
 }
@@ -1185,7 +1092,7 @@ section {
     .flex-container {
         width: 90%;
     }
-    .p-leistungs-teaser-box {
+    .preis-teaser-box {
         margin-left: 50px;
     }
 }
@@ -1197,7 +1104,7 @@ section {
         padding: 0;
     }
 
-    .p-leistungs-box {
+    .preis-box {
         margin-bottom: 2rem;
         min-height: initial;
     }
@@ -1209,7 +1116,7 @@ section {
         padding-right: 2rem;
         padding-left: 2rem;
     }
-    .p-leistungs-teaser-box {
+    .preis-teaser-box {
         margin-left: 0px;
     }
 }
@@ -1225,20 +1132,19 @@ section {
         width: 100%;
     }
 
-    .p-leistungs-box {
+    .preis-box {
         padding: 1rem 2rem;
     }
 }
 
 @media (max-width: 320px) {
 
-    .p-leistungs-box {
+    .preis-box {
         padding: .5rem 1rem 2rem 1rem;
     }
 }
-    === */
 
-/* === LEISTUNGEN-SEITE-Business === */
+/* === LEISTUNGEN-SEITE === */
 
 .leistung {
     padding-top: 2rem;
@@ -1257,24 +1163,24 @@ section {
 
 #leistung2 {
 
-    .b-leistungs-box,
-    .b-leistungs-box-empfohlen:nth-of-type(even) {
+    .leistungs-box,
+    .leistungs-box-empfohlen:nth-of-type(even) {
         background-color: #333333;
     }
 }
 
 #leistung4 {
 
-    .b-leistungs-box,
-    .b-leistungs-box-empfohlen:nth-of-type(even) {
+    .leistungs-box,
+    .leistungs-box-empfohlen:nth-of-type(even) {
         background-color: #333333;
     }
 }
 
 #leistung6 {
 
-    .b-leistungs-box,
-    .b-leistungs-box-empfohlen:nth-of-type(even) {
+    .leistungs-box,
+    .leistungs-box-empfohlen:nth-of-type(even) {
         background-color: #333333;
     }
 }
@@ -1573,7 +1479,7 @@ section {
 }
 
 .kontaktdaten {
-    padding: 1.6rem;
+    padding: 1.4rem;
     background-color: var(--dunkel-grau-2);
     box-shadow: 0 0 20px 10px var(--blau);
     text-align: center;
@@ -1612,190 +1518,6 @@ section {
     }
 } 
 
-/* === KONTAKT-SEITE-PRIVAT === */
-
-/* ===
-
-#p-kontakt-bereich {
-    padding-top: 1rem;
-    padding-bottom: .4rem;
-    box-shadow: 0 0 20px 10px var(--schwarz);
-    color: var(--weiß);
-    background-color: var(--dunkel-grau);
-}
-
-#p-kontakt-formular input,
-#p-kontakt-formular textarea {
-    width: 100%;
-    border: var(--border-style) var(--schwarz);
-    padding: .5rem;
-    font-size: 1rem;
-    font-family: var(--primaere-schriftart, --sekundaere-schriftart, --tertiaere-schriftart, --fallback-schriftart);
-    color: var(--schwarz);
-    background-color: var(--hell-grau-2);
-    transition: var(--border-transition);
-    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
-    border-radius: 4px;
-}
-
-#p-kontakt-formular textarea {
-    height: 100px;
-}
-
-#p-kontakt-formular input:hover,
-#p-kontakt-formular textarea:hover {
-    border: var(--border-style) var(--blau);
-    box-shadow: 0 0 10px 0 var(--blau);
-}
-
-#p-kontakt-formular {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-}
-
-#p-dropdown {
-    border-radius: 4px;
-    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
-    background-color: transparent;
-    color: var(--blau);
-}
-
-#p-dropdown:hover {
-    border: var(--border-style) var(--blau);
-    box-shadow: 0 0 10px 0 var(--blau);
-    cursor: pointer;
-}
-
-#p-dropdown-paket {
-    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
-    border-radius: 4px;
-    background-color: transparent;
-    color: var(--blau);
-}
-
-#p-dropdown-paket:hover {
-    border: var(--border-style) var(--blau);
-    box-shadow: 0 0 10px 0 var(--blau);
-    text-decoration: var(--schwarz);
-    cursor: pointer;
-}
-
-#checkbox {
-    color: #00d9ffb4;
-    text-decoration: none;
-}
-
-#checkbox:hover {
-    text-decoration: underline;
-}
-
-#p-absendenbutton {
-    width: 150px;
-    height: 36px;
-    background-color: var(--hell-grau-2);
-    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
-    border-radius: 4px;
-}
-
-#p-absendenbutton:hover {
-    box-shadow: 0 0 10px 5px var(--blau);
-    cursor: pointer;
-}
-
-@media (max-width: 1366px) {
-    #p-kontakt-formular {
-        width: 90%;
-    }
-}
-
-@media (max-width: 1024px) {
-    #p-kontakt-formular {
-        width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
-    #p-kontakt-formular button {
-        width: 100%;
-    }
-}
-    ===*/
-
-/* === KONTAKT-SEITE-Business === */
-
-/* ===
-
-#b-kontakt-bereich {
-    padding-top: 1rem;
-    box-shadow: 0 0 20px 10px var(--schwarz);
-    color: var(--weiß);
-    background-color: var(--dunkel-grau);
-}
-
-#b-kontakt-formular input,
-#b-kontakt-formular textarea {
-    width: 100%;
-    border: var(--border-style) var(--schwarz);
-    padding: .5rem;
-    font-size: 1rem;
-    font-family: var(--primaere-schriftart, --sekundaere-schriftart, --tertiaere-schriftart, --fallback-schriftart);
-    color: var(--schwarz);
-    background-color: var(--hell-grau-2);
-    transition: var(--border-transition);
-    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
-    border-radius: 4px;
-}
-
-#b-kontakt-formular textarea {
-    height: 100px;
-}
-
-#b-kontakt-formular input:hover,
-#b-kontakt-formular textarea:hover {
-    border: var(--border-style) var(--blau);
-    box-shadow: 0 0 10px 0 var(--blau);
-}
-
-#b-kontakt-formular {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-}
-
-#b-absendenbutton {
-    width: 150px;
-    height: 36px;
-    background-color: var(--hell-grau-2);
-    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
-    border-radius: 4px;
-}
-
-#b-absendenbutton:hover {
-    box-shadow: 0 0 10px 5px var(--blau);
-}
-
-@media (max-width: 1366px) {
-    #b-kontakt-formular {
-        width: 90%;
-    }
-}
-
-@media (max-width: 1024px) {
-    #b-kontakt-formular {
-        width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
-    #b-kontakt-formular button {
-        width: 100%;
-    }
-}
-
-===*/
 
 /* === IMPRESSUM === */
 
