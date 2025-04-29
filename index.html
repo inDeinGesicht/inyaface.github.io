@@ -23,54 +23,38 @@
   <link rel="stylesheet" type="text/css" href="src/css/styles.css" />
 </head>
 
+<!-- SMOOTH SCROLL -->
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+</head>
+
 <body>
 
 <!-- NAVIGATIONLEISTE-DESKTOP -->
-
-  <div id="mainContainer">
-    <nav id="start-header-nav">
+<div id="mainContainer">
+  <nav id="header-nav">
     <div class="container" id="desktop-nav">
       <div class="row">
         <div class="col-6">
-            <a href="./" class="logo-link">
-              <img src="src/img/logo.gif" alt="Logo" />
-            </a>
-              <a href="https://www.youtube.com/@inYaFace-_-Pictures"class="youtube">
-                <img src="src/social/youtube.png" alt="youtube" />
-              </a>
-              <a href="https://de.pinterest.com/inyaface_pictures/" class="pinterest">
-                <img src="src/social/pinterest.png" alt="pinterest" />
-              </a>
-        </div>
-    </div>
-  </div>
-
-
-
-      <!-- NAVIGATIONLEISTE-MOBIL -->
-
-      <div class="container" id="mobile-nav">
-        <div class="row">
-          <div class="col-6">
-            <a href="./" class="logo-link">
-              <img src="src/img/logo.gif" alt="Logo" />
-            </a>
-              <a href="https://www.youtube.com/@inYaFace-_-Pictures"class="youtube">
-                <img src="src/social/youtube.png" alt="youtube" />
-              </a>
-              <a href="https://de.pinterest.com/inyaface_pictures/" class="pinterest">
-                <img src="src/social/pinterest.png" alt="pinterest" />
-              </a>
-             <div class="clearfix" id="mobile-nav-dropdown">
-              <div class="clearfix" id="mobile-nav-content">
-                <ul>
-                </ul>
-              </div>
-            </div>
-          </div>
+          <a href="#" class="logo-link">
+            <img src="src/img/home.png" alt="Logo" />
+          </a>
+          <a href="https://www.youtube.com/@inYaFace-_-Pictures" class="youtube">
+            <img src="src/social/youtube.png" alt="youtube" />
+          </a>
+          <a href="https://de.pinterest.com/inyaface_pictures/" class="pinterest">
+            <img src="src/social/pinterest.png" alt="pinterest" />
+          </a>
+          <a href="#" class="mail">
+            <img src="src/social/mail.png" alt="mail" />
+          </a>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
 
       <!-- HEADER-BANNER -->
 
@@ -87,7 +71,112 @@
         </div-->
     </div>
 
-    <!-- LEISTUNGEN-BEREICH -->
+
+  <!-- SERVICE-BEREICH -->
+
+  <section id="service-bereich">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <header class="intro-container">
+            <h1>Unsere Services</h1>
+            <p>
+              100% Handarbeit! / Wir Arbeiten weder mit Vorlagen noch mit KI!
+            <p>Wir haben 3 Wege für Sie: schnell / billig / gut.</p>
+            <p>Sie können sich nun aussuchen welche 2 Sie haben möchten.</p>
+            </p>
+          </header>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <article class="service-box">
+            <div id="guenstig-icon" class="service-icon"></div>
+            <h1>Schnell & Billig</h1>
+            <p>
+              Dann wirds nicht gut.
+            </p>
+          </article>
+        </div>
+        <div class="col-2">
+          <article class="service-box">
+            <div id="schnell-icon" class="service-icon"></div>
+            <h1>Gut & Schnell</h1>
+            <p>
+              Dann wirds nicht billig.
+            </p>
+          </article>
+        </div>
+        <div class="col-2">
+          <article class="service-box">
+            <div id="modern-icon" class="service-icon"></div>
+            <h1>Billig & Gut</h1>
+            <p>
+              dann wirds nicht schnell.
+            </p>
+          </article>
+        </div>
+        <div class= col-6>
+          <article class="hinweis">
+          <p>
+            <h1>Was ist Ihnen Wichtiger?</h1>
+          </p>
+          </article>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+
+  <section class="video-bereich" id="video-bereich">
+    <header class="intro-container">
+      <h1>Filme in dein Gesicht</h1>
+      <p>Event- / Image- / Kurzfilme / etc.</p>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <header class="intro-container"></header>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div id="videos-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/gBzBu9uTvO4?si=fspKV1IVC8DZm6lg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/DwIfp3_HYr8?si=XHlQM37wWuwtPdYU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/hGtFw4e2W04?si=sKPOezr6x8S14TVs"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEISTUNGEN-BEREICH -->
 
   <section id="leistungen-bereich">
     <div class="container">
@@ -170,130 +259,54 @@
         </div>
   </section>
 
-  <!-- SERVICE-BEREICH -->
-
-  <section id="service-bereich">
+  <!-- KONTAKT-BEREICH -->
+  <section id="kontakt-bereich">
     <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <header class="intro-container">
-            <h1>Unsere Services</h1>
-            <p>
-              100% Handarbeit! / Wir Arbeiten weder mit Vorlagen noch mit KI!
-            <p>Wir haben 3 Wege für Sie: schnell / billig / gut.</p>
-            <p>Sie können sich nun aussuchen welche 2 Sie haben möchten.</p>
-            </p>
-          </header>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-2">
-          <article class="service-box">
-            <div id="guenstig-icon" class="service-icon"></div>
-            <h1>Schnell & Billig</h1>
-            <p>
-              Dann wirds nicht gut.
-            </p>
-          </article>
-        </div>
-        <div class="col-2">
-          <article class="service-box">
-            <div id="schnell-icon" class="service-icon"></div>
-            <h1>Gut & Schnell</h1>
-            <p>
-              Dann wirds nicht billig.
-            </p>
-          </article>
-        </div>
-        <div class="col-2">
-          <article class="service-box">
-            <div id="modern-icon" class="service-icon"></div>
-            <h1>Billig & Gut</h1>
-            <p>
-              dann wirds nicht schnell.
-            </p>
-          </article>
-        </div>
-        <div class= col-6>
-          <article class="hinweis">
-          <p>
-            <h1>Was ist Ihnen Wichtiger?</h1>
-          </p>
-          </article>
-          </div>
-      </div>
+      <h2>Kontakt</h2>
+      <p>📧 Schreib uns ne Mail: <a href="mailto:pictures@inyaface.net">pictures@inyaface.net</a></p>
     </div>
   </section>
 
-  <!-- PORTFOLIO Videos -->
+  <script>
+    window.onload = function() {
+      // Mail-Icon klickbar machen
+      document.querySelector('.mail').addEventListener('click', function() {
+        console.log('Mail-Icon geklickt'); // Debugging: Anzeigen, dass das Icon geklickt wurde
+  
+        // Zielbereich für das Scrollen
+        const kontaktBereich = document.querySelector('#kontakt-bereich');
+        if (kontaktBereich) {
+          console.log('Kontaktbereich gefunden'); // Debugging: Anzeigen, dass der Kontaktbereich existiert
+          kontaktBereich.scrollIntoView({
+            behavior: 'smooth', // Sanftes Scrollen
+            block: 'start' // Startposition (oben im Sichtbereich)
+          });
+        } else {
+          console.log('Kontaktbereich nicht gefunden'); // Debugging: Kontaktbereich nicht gefunden
+        }
+      });
+    }
+  </script>
 
-  <section class="video-bereich" id="video-bereich">
-    <header class="intro-container">
-      <h1>Filme in dein Gesicht</h1>
-      <p>Event- / Image- / Kurzfilme / etc.</p>
-    </header>
+<!-- FOOTER -->
+  <footer id="footer-start">
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <header class="intro-container"></header>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-6">
-          <div id="videos-container">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/gBzBu9uTvO4?si=fspKV1IVC8DZm6lg"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/DwIfp3_HYr8?si=XHlQM37wWuwtPdYU"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/hGtFw4e2W04?si=sKPOezr6x8S14TVs"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </div>
+          <span class="copyright">© by Oliver Meth (2023)</span>
+          <nav id="footer-start-nav">
+            <a href="impressum.html">Impressum</a>
+            <a href="agb.html">AGB</a>
+          </nav>
         </div>
       </div>
     </div>
-  </section>
+  </footer>
 
-    <!-- FOOTER -->
- 
-    <footer id="footer-start">
-      <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <span class="copyright">© by Oliver Meth (2023)</span>
-            <nav id="footer-start-nav">
-              <a href="impressum.html">Impressum</a>
-              <a href="agb.html">AGB</a>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <script defer>
-      document.addEventListener("touchstart", function () { }, true);
-    </script>
+  <script defer>
+    document.addEventListener("touchstart", function () { }, true);
+  </script>
+
 </body>
-
-
 
 </html>
