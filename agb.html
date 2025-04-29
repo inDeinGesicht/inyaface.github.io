@@ -355,7 +355,6 @@ Bei der Verwendung von Bildern und Filmen ist der Urheber anzuführen. Dies kann
     <!-- KONTAKT-BEREICH -->
   <section id="kontakt-bereich">
     <div class="container">
-      <h2>Kontakt</h2>
       <p>📧 Schreib uns ne Mail: <a href="mailto:pictures@inyaface.net">pictures@inyaface.net</a></p>
     </div>
   </section>
@@ -364,18 +363,18 @@ Bei der Verwendung von Bildern und Filmen ist der Urheber anzuführen. Dies kann
     window.onload = function() {
       // Mail-Icon klickbar machen
       document.querySelector('.mail').addEventListener('click', function() {
-        console.log('Mail-Icon geklickt'); // Debugging: Anzeigen, dass das Icon geklickt wurde
+        console.log('Mail-Icon geklickt'); 
   
         // Zielbereich für das Scrollen
         const kontaktBereich = document.querySelector('#kontakt-bereich');
         if (kontaktBereich) {
-          console.log('Kontaktbereich gefunden'); // Debugging: Anzeigen, dass der Kontaktbereich existiert
+          console.log('Kontaktbereich gefunden');
           kontaktBereich.scrollIntoView({
             behavior: 'smooth', // Sanftes Scrollen
             block: 'start' // Startposition (oben im Sichtbereich)
           });
         } else {
-          console.log('Kontaktbereich nicht gefunden'); // Debugging: Kontaktbereich nicht gefunden
+          console.log('Kontaktbereich nicht gefunden');
         }
       });
     }

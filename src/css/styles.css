@@ -450,7 +450,7 @@ section {
 /* === SERVICE-BEREICH === */
 
 #service-bereich {
-    background-color: var(--dunkel-grau);
+    background-color: var(--dunkel-grau-2);
     color: var(--weiß);
     padding: auto;
 }
@@ -574,7 +574,7 @@ section {
 /* === LEISTUNGEN-BEREICH === */
 
 #leistungen-bereich {
-    background-color: var(--dunkel-grau);
+    background-color: var(--dunkel-grau-2);
     color: var(--weiß);
     padding: auto;
 }
@@ -671,11 +671,14 @@ section {
     justify-content: flex-start;          /* Horizontal im Container */
     align-items: center;              /* Vertikal im Container */
     flex-direction: column;           /* Elemente untereinander */
-    padding: 50px 0;               /* Ausreichend Innenabstand */
+    padding: 5rem;               /* Ausreichend Innenabstand */
 }
 
-#kontakt-bereich a {
+#kontakt-bereich p {
     margin-left: 10px;
+    margin-top: -25px;
+}
+#kontakt-bereich a {
     text-decoration: none;
 }
 
