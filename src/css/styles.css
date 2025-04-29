@@ -155,23 +155,6 @@ section {
 
 /* === BUTTONS === */
 
-/* === .btn-typ-1 {
-    text-decoration: none;
-    text-align: center;
-    border: var(--border-style) var(--blau);
-    color: var(--weiß);
-    transition: color .5s ease-in-out, var(--border-transition);
-    border-radius: 6px;
-    box-shadow: 0 0 10px 0 var(--blau);
-}
-
-.btn-typ-1:hover {
-    color: var(--blau);
-    border: var(--border-style) var(--blau);
-    font-weight: normal;
-    box-shadow: 0 0 15px 6px var(--blau);
-} === */
-
 .btn-typ-2 {
     text-decoration: none;
     background-color: transparent;
@@ -208,17 +191,43 @@ section {
     justify-content: space-evenly;
     display: flex;
     align-items: center;
-    z-index: 250px;
 }
 
 .social a {
     text-decoration: none;
-    z-index: 250px;
 }
 
 .social a>img {
     height: 50px;
     width: auto;
+}
+
+/* NAVIGATIONSLEISTE */
+
+#start-header-nav {
+    width: 100%;
+    height: 50px;
+    background-color: var(--dunkel-grau);
+    box-shadow: 0 0 20px 10px var(--schwarz);
+    position: fixed;
+    z-index: 150;
+}
+
+#start-header-nav a>img {
+    height: 50px;
+}
+
+#start-header-nav .col-6 {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#start-header-nav .container,
+#start-header-nav .row,
+#start-header-nav .col-6 {
+    height: 100%;
 }
 
 /* NAVIGATIONSLEISTE */
@@ -374,34 +383,6 @@ section {
     filter: brightness(.5);
     filter: blur(.100);
 }
-
-
-
-.leistung-ansehen-btn {
-    height: 40px;
-    display: inline-block;
-    padding-top: .5rem;
-    min-width: 100px;
-    flex-basis: 11rem;
-    margin-top: 1vh;
-    background-color: transparent;
-}
-
-#buttonContainer {
-    width: 100%;
-    height: 83%;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    column-gap: 18rem;
-    flex-direction: inherit;
-    z-index: 100;
-}
-
-#buttonContainer a {
-    background-color: var(--dunkelblau);
-    margin-top: 53vh;
-} 
     */
 
 @media (max-width: 3440px) {
@@ -583,9 +564,8 @@ section {
     width: 100%;
     height: auto;
     margin-top: -80px;
-    padding-top: 36.00%;
     padding-bottom: 1000px;
-    position: fixed;
+    position: relative;
     background: url("../img/bg01.png");
 }
 
@@ -690,7 +670,7 @@ section {
 /* === VIDEO-BEREICH === */
 
 #video-bereich {
-    background-color: #222222;
+    background-color: var(--dunkel-grau);
     color: var(--weiß);
 }
 
@@ -710,9 +690,7 @@ section {
     justify-content: space-evenly;
 }
 
-#videos-container iframe {
-    margin-top: 3rem;
-}
+
 
 @media (max-width: 1440px) {
 
@@ -818,6 +796,7 @@ section {
     box-shadow: 0 0 20px 10px var(--schwarz);
     height: 2.8rem;
     color: var(--weiß);
+    position: fixed;
 }
 
 #footer-nav {
@@ -866,6 +845,7 @@ section {
     box-shadow: 0 0 20px 10px var(--schwarz);
     height: 2.8rem;
     color: var(--weiß);
+    position: fixed;
 }
 
 .copyright {
@@ -916,7 +896,7 @@ section {
 }
  
 .slider {
-    height: 100px;
+    height: 150px;
     margin: auto;
     padding-top: 15px;
     overflow: hidden;
@@ -946,203 +926,6 @@ section {
 }
 
 /* === SEITEN === */
-
-/* === Preis === */
-
-.preis {
-    padding-top: 2rem;
-    padding-bottom: 4rem;
-    background-color: var(--dunkel-grau);
-    color: var(--weiß);
-}
-
-#preis1 {
-    box-shadow: 0 0 20px 10px var(--schwarz);
-}
-
-.preis:nth-of-type(even) {
-    background-color: #222222;
-}
-
-#preis2 {
-
-    .preis-box,
-    .preis-box-empfohlen:nth-of-type(even) {
-        background-color: #333333;
-    }
-}
-
-#p-leistung4 {
-
-    .preis-box,
-    .preis-box-empfohlen:nth-of-type(even) {
-        background-color: #333333;
-    }
-}
-
-#p-leistung6 {
-
-    .preis-box,
-    .preis-box-empfohlen:nth-of-type(even) {
-        background-color: #333333;
-    }
-}
-
-.flex-container {
-    display: flex;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.flex-container>.intro-container {
-    width: 100%;
-}
-
-.preis-box {
-    background-color: #222222;
-    box-shadow: 0 0 20px 5px var(--schwarz);
-    flex-basis: 25%;
-    color: var(--hell-grau-2);
-    padding: 2rem 4rem;
-    text-align: center;
-    min-height: 550px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 6px;
-}
-
-.preis-teaser-box {
-    margin-left: 125px;
-}
-
-.preis-box-empfohlen {
-    flex-basis: 27.5%;
-    min-height: 650px;
-    box-shadow: 0 0 20px 15px var(--blau);
-    font-size: 1.1rem;
-    border-radius: 6px;
-}
-
-.preis-box h1 {
-    margin-bottom: 0;
-    margin-top: 1.5rem;
-    color: var(--weiß);
-}
-
-.preis-box ul {
-    padding: 0;
-    color: #00d9ffb4;
-}
-
-.preis-box>ul>li {
-    list-style-position: inside;
-    margin-bottom: .5rem;
-}
-
-.p-leistung-auswählen-btn {
-    width: 50%;
-    text-align: center;
-    font-size: 1rem;
-    margin-top: .25rem;
-    min-width: 100px;
-    box-shadow: 0 0 10px 0 var(--blau);
-    border-color: var(--blau);
-}
-
-@media (max-width: 1815px) {
-    .preis-box {
-        flex-basis: 27.5%;
-    }
-
-    .preis-box-empfohlen {
-        flex-basis: 30%;
-    }
-}
-
-@media (max-width: 1652px) {
-    .preis-box {
-        flex-basis: 30%;
-    }
-
-    .preis-box-empfohlen {
-        flex-basis: 32.5%;
-    }
-}
-
-@media (max-width: 1516px) {
-    .preis-box {
-        padding: 2rem 4rem;
-    }
-
-    .flex-container {
-        align-items: stretch;
-    }
-
-    .preis-box-empfohlen {
-        min-height: initial;
-    }
-}
-
-@media (max-width: 1366px) {
-    .flex-container {
-        width: 90%;
-    }
-    .preis-teaser-box {
-        margin-left: 50px;
-    }
-}
-
-@media (max-width: 1332px) {
-    .flex-container {
-        width: 80%;
-        flex-direction: column;
-        padding: 0;
-    }
-
-    .preis-box {
-        margin-bottom: 2rem;
-        min-height: initial;
-    }
-}
-
-@media (max-width: 1024px) {
-    .flex-container {
-        width: 100%;
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
-    .preis-teaser-box {
-        margin-left: 0px;
-    }
-}
-
-@media (max-width: 768px) {
-    .flex-container {
-        width: 90%;
-    }
-}
-
-@media (max-width: 480px) {
-    .flex-container {
-        width: 100%;
-    }
-
-    .preis-box {
-        padding: 1rem 2rem;
-    }
-}
-
-@media (max-width: 320px) {
-
-    .preis-box {
-        padding: .5rem 1rem 2rem 1rem;
-    }
-}
 
 /* === LEISTUNGEN-SEITE === */
 
@@ -1333,7 +1116,7 @@ section {
 }
 
 /* === ÜBER-UNS-SEITE === */
-
+/* === 
 .home {
     margin: 0;
     padding: 0;
@@ -1467,6 +1250,7 @@ section {
         align-items: center;
     }
 }
+=== */
 
 /* === KONTAKT-SEITE === */
 
@@ -1477,7 +1261,7 @@ section {
 }
 
 .kontaktdaten {
-    padding: 4.3rem;
+    padding: 7rem;
     background-color: var(--dunkel-grau-2);
     box-shadow: 0 0 20px 10px var(--blau);
     text-align: center;
@@ -1575,12 +1359,6 @@ section {
     background-color: var(--dunkel-grau);
     color: var(--weiß);
     padding: 2rem 4rem;
-}
-
-/* === Portfolio === */
-
-#portfolio {
-   color: var(--weiß);
 }
 
 /* === GRID SYSTEM === */
