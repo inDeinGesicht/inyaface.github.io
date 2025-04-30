@@ -43,14 +43,6 @@
     <link rel="stylesheet" type="text/css" href="src/css/styles.css" />
   </head>
     
-   <!-- SMOOTH SCROLL -->
-<style>
-  html {
-    scroll-behavior: smooth;
-  }
-</style>
-</head>
-
 <body>
 
 <!-- NAVIGATIONLEISTE-DESKTOP -->
@@ -67,9 +59,6 @@
           </a>
           <a href="https://de.pinterest.com/inyaface_pictures/" class="pinterest">
             <img src="src/social/pinterest.png" alt="pinterest" />
-          </a>
-          <a href="#" class="mail">
-            <img src="src/social/mail.png" alt="mail" />
           </a>
         </div>
       </div>
@@ -359,26 +348,6 @@ Bei der Verwendung von Bildern und Filmen ist der Urheber anzuführen. Dies kann
     </div>
   </section>
 
-  <script>
-    window.onload = function() {
-      // Mail-Icon klickbar machen
-      document.querySelector('.mail').addEventListener('click', function() {
-        console.log('Mail-Icon geklickt'); 
-  
-        // Zielbereich für das Scrollen
-        const kontaktBereich = document.querySelector('#kontakt-bereich');
-        if (kontaktBereich) {
-          console.log('Kontaktbereich gefunden');
-          kontaktBereich.scrollIntoView({
-            behavior: 'smooth', // Sanftes Scrollen
-            block: 'start' // Startposition (oben im Sichtbereich)
-          });
-        } else {
-          console.log('Kontaktbereich nicht gefunden');
-        }
-      });
-    }
-  </script>
 
     <!-- FOOTER -->
 
@@ -395,8 +364,6 @@ Bei der Verwendung von Bildern und Filmen ist der Urheber anzuführen. Dies kann
         </div>
       </div>
     </footer>
-    <script defer>
-      document.addEventListener("touchstart", function () {}, true);
-    </script>
+
   </body>
 </html>
