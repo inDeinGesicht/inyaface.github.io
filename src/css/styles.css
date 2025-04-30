@@ -234,6 +234,7 @@ section {
 
 .video-main {
     position: absolute;
+    margin-top: -40px;
     top: 0;
     bottom: 0;
     width: 100%;
@@ -255,10 +256,6 @@ section {
 
 
 @media (max-width: 3840px) {
-    .logo {
-        top: -70px;
-        bottom: 100%; 
-    }
     .video-main {
         height: 2160px;
     }
@@ -266,8 +263,7 @@ section {
 
 @media (max-width: 3440px) {
     .logo {
-        top: -70px;
-        bottom: 100%; 
+        margin-top: -250px;
     }
     .video-main {
         height: 1440px;
@@ -276,8 +272,7 @@ section {
 
 @media (max-width: 1920px) {
     .logo {
-        top: 160px;
-        bottom: 100%; 
+        margin-top: 0px;
     }
     .video-main {
         height: 1080px;
@@ -399,7 +394,7 @@ section {
 }
 
 /* === HEADER-BANNER === */
-
+/*
 #header-banner-start {
     width: 100%;
     height: auto;
@@ -408,7 +403,7 @@ section {
     position: relative;
     background: url("../img/bg01.png");
     box-shadow: 0 0 30px 10px var(--schwarz);
-}
+}*/
 
 #header-banner {
     width: auto;
